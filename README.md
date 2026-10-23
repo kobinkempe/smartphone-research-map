@@ -1,5 +1,9 @@
 # Smartphone Research Map
 
+## Public demo
+
+[Open the live demo](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/smartphone-research-map/) · [Read the case study](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/case-studies/smartphone-research-map/)
+
 An agent-assisted research system and interactive dependency map for tracing what it would take to make a smartphone from underlying parts, tools and resources.
 
 ![Interactive research map](docs/screenshots/map.jpg)
