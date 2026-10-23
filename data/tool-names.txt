@@ -1,0 +1,417 @@
+Abrasive stones
+Acoustic reference source
+Acoustic test equipment
+Actinic radiant comparison reference
+Adhesive applicator
+Adhesive dispensers
+Air compressor
+Air sample volume displacement fixture
+Airborne particle test kit
+Airflow containment test kit
+Airflow mineral water column pressure comparator
+Alignment and compaction press
+Alignment fixture
+Analytical assay instruments
+Analytical instruments
+Annealing furnace
+Anode-casting furnace
+Antenna tuning equipment
+Anvil
+Assay mineral and wood mass comparator
+Assembly equipment
+Assembly fixture
+Assembly fixtures
+Assembly tools
+Audio amplifier
+Audio signal source
+Audio spectral comparison fixture
+Balances
+Batch reaction vessel
+Battery formation compressive load test fixture
+Battery formation pressure fixture
+Battery making equipment
+Battery pouch forming equipment
+Battery pouch sealing equipment
+Battery tab seal film die
+Battery tab welding equipment
+Battery vacuum drying equipment
+Battery vacuum filling equipment
+Battery validation
+Bellows
+Bellows or blower
+Bench air thermal-duty comparison fixture
+Bench mechanically moved-air heat-rejection frame
+Bench natural-air heat-rejection frame
+Beneficiation/separation equipment
+Bonding presses
+Bone or antler implement
+Calibration standards
+Camera active alignment fixture
+Camera alignment stage
+Camera calibration equipment
+Camera readout fixture
+Camera target collimator
+Camera test target
+Capstans
+Carbide compact press mould
+Carbide coolant port boundary comparison fixture
+Carbide feedthrough comparison mount
+Carbide glass joint comparison rig
+Carbide port test blind closure set
+Carbide rubber compounding tool set
+Carbide rubber cure load thermal comparator
+Carbide rubber gasket mould and cure fixture
+Carbide rubber split ring mould
+Carbon body baking retort
+Carbon body press mould
+Carbonization byproduct collection hardware
+Carrying equipment
+Casting moulds
+Ceramic shaping/firing tools
+Charcoal-making equipment
+Chemical barrier fit and retention comparison fixture
+Chemical barrier view optical comparison fixture
+Chemical compatibility test fixture
+Chemical effluent collection equipment
+Chemical protection equipment
+Chemical purification equipment
+Chemical test independent receptor assay bench
+Chemical test isolated fuel exposure enclosure
+Chemical workshop
+Chip fabrication equipment
+Chip packaging equipment
+Chip test equipment
+Chlorosilane distillation equipment
+Chlorosilane reaction vessel
+Circuit assembly tool
+Circuit board equipment
+Clay pottery
+Clean air rotor balance comparison fixture
+Clean air supply mechanical sound and vibration comparator
+Cleaning equipment
+Cleaning equipment
+Cleanroom
+Clocks
+Coal carbonization retort
+Coarse comparison reference
+Coarse stone supports
+Coating & curing line
+Coating equipment
+Cold shaping chip screen
+Cold zone seal comparison fixture
+Compatible chemical storage vessels
+Component-placement system
+Composition test instruments
+Compound semiconductors
+Connector tools
+Contained chemical barrier test waste receiver
+Containers
+Controlled-atmosphere carbide furnace
+Controller field stimulus and load fixture
+Controller memory pattern comparison fixture
+Converting equipment
+Cooling calorimetry fixture
+Cooling systems
+Copper ore processing alternatives
+Cover feed conditioning and transfer equipment
+Crucible + mould
+Crucibles
+Cryogenic air separation equipment
+Crystal growing equipment
+Curing & joining
+Cutting edge contact test fixture
+Deadweight pressure reference
+Deposition equipment
+Deposition equipment
+Design rules
+Detector flat-field comparison fixture
+Development equipment
+Die bonding equipment
+Diffusion furnace
+Dimensional instruments
+Direct-clamp lead comparison fixture
+Display driver and flex bonding fixture
+Display film thickness test fixture
+Display frit laser sealer
+Display interface and drive test fixture
+Display lid joining fixture
+Display LTPS crystallization module
+Display making equipment
+Display package barrier and aging fixture
+Display spectral and angular test fixture
+Display thermal and power test fixture
+Dissipative work mat
+Distillation
+Doping equipment
+Drawbench
+Drawbench + capstans
+Drill
+Drill cut and feed test fixture
+Dry room
+Dry storage cover
+DUV coupon clean bake fixture
+DUV manual control functional comparison fixture
+DUV spectral line comparison reference
+Early galvanic commissioning source
+Electrical inspection instruments
+Electrical instruments
+Electrical reference instrument
+Electrical standard cell reference
+Electrostatic potential reference apparatus
+Electrostatic protection
+Emergency rinse delivery flow test fixture
+Emergency rinse water quality test kit
+Etching equipment
+Etching equipment
+Exposure equipment
+Exposure system
+Facility panel rigging load test fixture
+Fastening tool
+Feedthrough ceramic press tooling
+Film focal-spot comparison fixture
+Film thickness and tension comparison fixture
+Filter media folding fixture
+Filtration
+Finishing grinder
+Fire-refining/anode-preparation equipment
+First pit firing bed
+Forging / rolling tools
+Formation cycler
+Fuel furnace
+Furnace
+Furnaces
+Gas drying and purification train
+Gas handling
+Gasket cutting punch set
+Generator
+Generator fed test fixture
+Geometric capacitance reference
+Glass angle wavelength and retardance reference
+Glass bath immersion rack
+Glass edge impact and bend fixture
+Glass force and motion comparison reference
+Glass optical constant reference fixture
+Glass rinse drying and transfer equipment
+Glass sheet cutting and sizing equipment
+Glass strengthening bath
+Glass stress profile instrument
+Gravity waste leak comparator
+Grinder
+Grinder spindle load test fixture
+Hammer impact and retention test fixture
+Hammers
+Hammerstone
+Hammerstones + wedges
+Hand-drill ignition kit
+Handling assembly
+Handling/separation/rinsing equipment
+Handset shell seal interface test fixture
+Hard, polished dies
+Heat treatment equipment
+Hidden-joint X-ray inspection equipment
+High-vacuum pressure gauge
+High-voltage divider reference
+High-voltage dummy load fixture
+Hot handling kit
+Humidity equilibrium reference cell
+Ignition hearth
+Ignition spindle
+Impedance measurement instrument
+Independent photon reference field apparatus
+Industrial foundations and process supplies
+Insulation test instrument
+Integral-contact lead current and flex qualification fixture
+Interconnect process equipment
+Interlock functional comparison fixture
+Ion implantation equipment
+Jigs and fixtures
+Joining and curing tools
+Joining equipment
+Joint pull test fixture
+Kiln
+Lathe
+Lathe workholding tooling
+Length master reference
+Lens polishing
+Light sources
+Loading contact fixture
+Local gravity reference apparatus
+Localized brazing hearth
+Machine tools
+Machining cutting tool set
+Magnetic parts equipment
+Magnetic-field meter
+Magnetizer
+Manual drive
+Manual DUV projection control panel
+Manual furnace control panel
+Manual metal scraper
+Manual pressure comparison source
+Manual program loading panel
+Manual reference reticle writing fixture
+Mask making equipment
+Mass master reference
+Measurement microphone
+Mechanical forming profile and load comparison fixture
+Mechanical length comparator
+Mechanical power
+Melting furnace
+MEMS fabrication
+Metal-forming tool
+Metalworking protection
+Meter
+Micrometer screw gauge
+Milling machine
+Milling workholding tooling
+Mineral pivot load and wear comparator
+Mineral separation equipment
+Mining tools
+Mixing/solution-control equipment
+Moisture verification instrument
+Molding equipment
+Motion control
+Natural rubber wash and press tooling
+Network compatibility equipment
+OLED common layer open mask set
+OLED RGB fine metal mask set
+OLED stock deposition acceptance fixture
+Optical fabrication/inspection tools
+Optical inspection instruments
+Optical inspection microscope
+Optical instruments
+Optics making equipment
+Ore crusher
+Packaging tools
+Packed carbon graphitization furnace
+Passive hot barrier transfer comparison fixture
+PCB contact exposure fixture
+PCB drill and routing cutting tool set
+PCB hole and routing comparison fixture
+PCB layer contact photomask set
+PCB manual coordinate control apparatus
+PCB photoexposure band and dose reference
+PCB press load comparison reference
+PCB reference mask writing fixture
+PCB wet etch apparatus
+Personnel grounding band
+Phone test equipment
+Planarization equipment
+Plating equipment
+Plating quality test kit
+Polymer film extrusion and stretching line
+Polysilicon deposition reactor
+Position/focus/alignment metrology
+Pottery water still
+Pouch seal force and thermal contact test fixture
+Pouch seal test artifact
+Powder preparation equipment
+Power distribution
+Precision machines
+Pressure area and volume reference artifact
+Pressure instruments
+Process controller
+Process test structures
+Programming fixture
+Programming interface controller
+Programming tools
+Protection integrity test fixture
+Pumps
+Purity / process instruments
+Quench medium cooling response fixture
+Quench vessel leak and load test fixture
+Quench water gravity pour filter holder
+Quiet acoustic fixture
+Radiation channel charge-injection reference
+Radiation survey instrument
+Radio impedance calibration kit
+Radio power calibration reference
+Radio test equipment
+Radio test port fixture
+Reagent transfer kit
+Recrystallization equipment
+Refining cell
+Reflow oven
+Regulated power
+Resist coating equipment
+Resist film thickness comparison fixture
+Resistance master reference
+Resistance spot welding tool
+Resource survey kit
+Reticle coordinate comparison fixture
+RF cavity wavemeter
+RF frequency comparison station
+RF harmonic marker source
+RF phase transfer fixture
+Rigid busbar furnace feed
+Rolling tools
+Seal background comparison vessel
+Seal leak displacement comparator
+Seal witness boundary blind fixture
+Sensor calibration equipment
+Sensor critical point dryer
+Sensor dicing carrier
+Sensor release and drying equipment
+Sensor wafer bonding equipment
+Sensor wet release holder
+Silicon crushing and handling tools
+Silicon reduction furnace
+Smelting furnace
+Solder paste stencil
+Soldering tool
+Soldering tools
+Solvent drying equipment
+Solvent recovery equipment
+Sorting / carrying tools
+Sorting surface
+Speaker verification tools
+Spectroscopic length realization apparatus
+Static protective container
+Steatite dense firing station
+Steatite dielectric and porosity comparison fixture
+Steatite firing duty comparison fixture
+Steatite furniture forming mould set
+Steatite furniture hot load test fixture
+Steatite green moisture comparison fixture
+Steatite installed firing furniture set
+Steatite lining forming mould set
+Stencil printer
+Stone hand tools
+Supports
+Surface flatness verification kit
+Tallow bearing friction and wear test fixture
+Temperature fixed-point reference
+Temperature instruments
+Test load
+Thermal radiance reference fixture
+Thermal test equipment
+Timber structures
+Time comparison reference
+Tong mineral abrasive boring fixture
+Tongs
+Torque calibration fixture
+Torque screwdrivers
+Touch electrode comparison simulator
+Touch panel equipment
+Tweezers
+Vacuum sublimation equipment
+Vacuum systems
+Ventilation
+Wafer dicing equipment
+Wafer preparation equipment
+Water collection/filtration/distillation equipment
+Water density and volume mass realization apparatus
+Water electrolysis cell
+Water polishing equipment
+Water supply
+Waveform contact retained-force comparison fixture
+Waveform/reference instrument
+Wheel integrity verification fixture
+Winding fixture
+Wire bonding equipment
+Wire drawing equipment
+Wooden grip trial
+Wooden water trough
+Workshop computer
+Workshop surfaces
+X-ray resolution and contrast artifact
+X-ray source energy comparison apparatus

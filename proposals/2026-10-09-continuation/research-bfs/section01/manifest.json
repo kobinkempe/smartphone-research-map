@@ -1,0 +1,910 @@
+{
+  "state": "complete-bounded-five-item-assignment",
+  "target_version": "v1",
+  "scenario_id": "coordinated-discovery-v1",
+  "assignment_order_revision": 52,
+  "base_revision": 53,
+  "last_observed_revision": 69,
+  "order_rule": "BFS traversal from handset, preserve selected requires stored major assembly order, physical scope only, deduplicate canonical identity; do not skip already-expanded outputs.",
+  "items": [
+    {
+      "item_id": "handset",
+      "name": "Smartphone",
+      "role": "part",
+      "bfs_position": 0,
+      "level": 0,
+      "expected_route": "discovery-handset-v1",
+      "route_unchanged_from_scoped_revision": true,
+      "report_file": "01-handset.md",
+      "report_sha256": "45526ca5e603a5ac93029851f4a0c22a91fadec6d4585faa2454bb6acb6a76da",
+      "report_word_count": 974,
+      "selected_requirements_preserved": [
+        {
+          "target": "enclosure",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "enclosure must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "covers",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "covers must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "cover-glass",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "cover-glass must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "display-panel",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "display-panel must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "touch-panel",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "touch-panel must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "battery-cell",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "battery-cell must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "main-board",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "main-board must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "audio-system",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "audio-system must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "camera-system",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "camera-system must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "sensor-system",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "sensor-system must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "rf-system",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "rf-system must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "connectors",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "connectors must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "flexible-interconnect",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "flexible-interconnect must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "thermal-system",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "thermal-system must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "fasteners",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "fasteners must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "buttons",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "buttons must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "haptic-actuator",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "haptic-actuator must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "seals",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "seals must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "adhesives",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "adhesives must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "assembly-fixtures",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "assembly-fixtures must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "torque-screwdrivers",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "torque-screwdrivers must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "tweezers",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "tweezers must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "connector-tools",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "connector-tools must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "adhesive-dispensers",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "adhesive-dispensers must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "bonding-presses",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "bonding-presses must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "electrostatic-protection",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "electrostatic-protection must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "software-provisioning",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "software-provisioning must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "handset-validation",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "handset-validation must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "regulated-power",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "regulated-power must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "optical-inspection-instruments",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "optical-inspection-instruments must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "electrical-inspection-instruments",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "electrical-inspection-instruments must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "battery-protection-electronics",
+          "role": "part",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "battery-protection-electronics must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "incorporated or consumed; allocation not yet specified"
+        },
+        {
+          "target": "hidden-joint-x-ray-inspection-equipment",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "hidden-joint-x-ray-inspection-equipment must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        },
+        {
+          "target": "boot-and-development-tools",
+          "role": "tool",
+          "compatibility": "unknown",
+          "required_capability": {
+            "function": "boot-and-development-tools must support the proposed handset making/acceptance stage",
+            "grade_range_precision_interfaces_quantity": "not yet specified",
+            "availability": "Must exist before this output is made or accepted; no caller may supply its own prerequisite"
+          },
+          "use": "reused equipment"
+        }
+      ],
+      "selected_immediate_count": 34,
+      "source_ids": [
+        "H1",
+        "H2",
+        "H3"
+      ],
+      "evidence_status": "research-draft with bounded source-checked claims",
+      "inventory_complete": false,
+      "spec_reviewed": false,
+      "closure_status": "open",
+      "physical_acceptance": false
+    },
+    {
+      "item_id": "enclosure",
+      "name": "Enclosure",
+      "role": "part",
+      "bfs_position": 1,
+      "level": 1,
+      "expected_route": "discovery-enclosure-v1",
+      "route_unchanged_from_scoped_revision": true,
+      "report_file": "02-enclosure.md",
+      "report_sha256": "6d53bc8eca421c72131da795ef0f343988413eeb3c6410144d75ec74ee29a9d9",
+      "report_word_count": 913,
+      "selected_requirements_preserved": [
+        {
+          "target": "aluminum-stock",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply Aluminum stock for: Machine chosen aluminum enclosure and integrate seals",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "precision-machines",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Precision machines for: Machine chosen aluminum enclosure and integrate seals",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        },
+        {
+          "target": "jigs-fixtures",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Jigs and fixtures for: Machine chosen aluminum enclosure and integrate seals",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        },
+        {
+          "target": "surface-cleaning",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Cleaning equipment for: Machine chosen aluminum enclosure and integrate seals",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        },
+        {
+          "target": "seals",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply Seals for: Machine chosen aluminum enclosure and integrate seals",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "adhesives",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply Adhesives for: Machine chosen aluminum enclosure and integrate seals",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "dimensional-metrology",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Dimensional instruments for: Machine chosen aluminum enclosure and integrate seals",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        }
+      ],
+      "selected_immediate_count": 7,
+      "source_ids": [
+        "E1",
+        "E2"
+      ],
+      "evidence_status": "research-draft with bounded source-checked claims",
+      "inventory_complete": false,
+      "spec_reviewed": false,
+      "closure_status": "open",
+      "physical_acceptance": false
+    },
+    {
+      "item_id": "covers",
+      "name": "Covers",
+      "role": "part",
+      "bfs_position": 2,
+      "level": 1,
+      "expected_route": "discovery-covers-v1",
+      "route_unchanged_from_scoped_revision": true,
+      "report_file": "03-covers.md",
+      "report_sha256": "5679c71a7a14e1ef72d0a358bdeb99501db13d71c8cf2e6e7454ec34d361f0a1",
+      "report_word_count": 931,
+      "selected_requirements_preserved": [
+        {
+          "target": "polymers",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply Polymers for: Form handset rear cover from selected polymer",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "molding-equipment",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Molding equipment for: Form handset rear cover from selected polymer",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        },
+        {
+          "target": "adhesives",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply Adhesives for: Form handset rear cover from selected polymer",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "seals",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply Seals for: Form handset rear cover from selected polymer",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "dimensional-metrology",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Dimensional instruments for: Form handset rear cover from selected polymer",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        }
+      ],
+      "selected_immediate_count": 5,
+      "source_ids": [
+        "C1",
+        "C2"
+      ],
+      "evidence_status": "research-draft with bounded source-checked claims",
+      "inventory_complete": false,
+      "spec_reviewed": false,
+      "closure_status": "open",
+      "physical_acceptance": false
+    },
+    {
+      "item_id": "cover-glass",
+      "name": "Cover glass",
+      "role": "part",
+      "bfs_position": 3,
+      "level": 1,
+      "expected_route": "discovery-cover-glass-v1",
+      "route_unchanged_from_scoped_revision": true,
+      "report_file": "04-cover-glass.md",
+      "report_sha256": "04919c62bbb4fae3affcf5b9fadf6855ff2dbb5854ebb90403a5210333c6ec8c",
+      "report_word_count": 943,
+      "selected_requirements_preserved": [
+        {
+          "target": "aluminosilicate-sheet",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply Aluminosilicate glass sheet for: Cut, edge-finish and chemically strengthen sodium aluminosilicate sheet",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "potassium-salt-stock",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply Potassium strengthening salt for: Cut, edge-finish and chemically strengthen sodium aluminosilicate sheet",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "glass-strengthening-bath",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Glass strengthening bath for: Cut, edge-finish and chemically strengthen sodium aluminosilicate sheet",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        },
+        {
+          "target": "lens-polishing",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Lens polishing for: Cut, edge-finish and chemically strengthen sodium aluminosilicate sheet",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        },
+        {
+          "target": "optical-metrology",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Optical instruments for: Cut, edge-finish and chemically strengthen sodium aluminosilicate sheet",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        },
+        {
+          "target": "dimensional-metrology",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Dimensional instruments for: Cut, edge-finish and chemically strengthen sodium aluminosilicate sheet",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        },
+        {
+          "target": "surface-cleaning",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Cleaning equipment for: Cut, edge-finish and chemically strengthen sodium aluminosilicate sheet",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        },
+        {
+          "target": "tongs",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Tongs for: Cut, edge-finish and chemically strengthen sodium aluminosilicate sheet",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED",
+            "thermal_chemical_demands": "Must withstand the actual process temperature, atmosphere/salt chemistry, load and exposure duration; all numerical values NOT_RESEARCHED. Coarse wooden-grip trial is excluded."
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        },
+        {
+          "target": "supports",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Supports for: Cut, edge-finish and chemically strengthen sodium aluminosilicate sheet",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED",
+            "thermal_chemical_demands": "Must withstand the actual process temperature, atmosphere/salt chemistry, load and exposure duration; all numerical values NOT_RESEARCHED. Coarse wooden-grip trial is excluded."
+          },
+          "compatibility": "unknown",
+          "use": "reused physical tooling; capability and availability unknown"
+        }
+      ],
+      "selected_immediate_count": 9,
+      "source_ids": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "evidence_status": "research-draft with bounded source-checked claims",
+      "inventory_complete": false,
+      "spec_reviewed": false,
+      "closure_status": "open",
+      "physical_acceptance": false
+    },
+    {
+      "item_id": "display-panel",
+      "name": "Display panel",
+      "role": "part",
+      "bfs_position": 4,
+      "level": 1,
+      "expected_route": "discovery-display-panel-v1",
+      "route_unchanged_from_scoped_revision": true,
+      "report_file": "05-display-panel.md",
+      "report_sha256": "e555c7a008ab43caf4b5bebe2930fba7a8467b4a857918bdc135a393cb1b2474",
+      "report_word_count": 936,
+      "selected_requirements_preserved": [
+        {
+          "target": "display-substrate",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply Display substrate for: Assemble selected rigid-glass active-matrix OLED panel",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "transistor-backplane",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply Transistor backplane for: Assemble selected rigid-glass active-matrix OLED panel",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "display-oled-stack",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply OLED emissive stack for: Assemble selected rigid-glass active-matrix OLED panel",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "display-encapsulation",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply Display moisture barrier for: Assemble selected rigid-glass active-matrix OLED panel",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "flexible-interconnect",
+          "role": "part",
+          "required_capability": {
+            "function": "Supply Flexible interconnect for: Assemble selected rigid-glass active-matrix OLED panel",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "incorporated or consumed material; quantity/loss unresolved"
+        },
+        {
+          "target": "display-production",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Display making equipment for: Assemble selected rigid-glass active-matrix OLED panel",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        },
+        {
+          "target": "optical-metrology",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Optical instruments for: Assemble selected rigid-glass active-matrix OLED panel",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        },
+        {
+          "target": "electrical-instruments",
+          "role": "tool",
+          "required_capability": {
+            "function": "Supply Electrical instruments for: Assemble selected rigid-glass active-matrix OLED panel",
+            "quantity": "NOT_RESEARCHED",
+            "dimensional_purity_performance_limits": "NOT_RESEARCHED",
+            "availability_and_acceptance": "NOT_RESEARCHED"
+          },
+          "compatibility": "unknown",
+          "use": "reused fabrication/verification equipment"
+        }
+      ],
+      "selected_immediate_count": 8,
+      "source_ids": [
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "evidence_status": "research-draft with bounded source-checked claims",
+      "inventory_complete": false,
+      "spec_reviewed": false,
+      "closure_status": "open",
+      "physical_acceptance": false
+    }
+  ],
+  "next_bfs_queue": [
+    "touch-panel",
+    "battery-cell",
+    "main-board",
+    "audio-system",
+    "camera-system",
+    "sensor-system",
+    "rf-system",
+    "connectors",
+    "flexible-interconnect",
+    "thermal-system",
+    "fasteners",
+    "buttons",
+    "haptic-actuator",
+    "seals",
+    "adhesives",
+    "assembly-fixtures",
+    "torque-screwdrivers",
+    "tweezers",
+    "connector-tools",
+    "adhesive-dispensers",
+    "bonding-presses",
+    "electrostatic-protection",
+    "software-provisioning",
+    "handset-validation",
+    "regulated-power",
+    "optical-inspection-instruments",
+    "electrical-inspection-instruments",
+    "battery-protection-electronics",
+    "hidden-joint-x-ray-inspection-equipment",
+    "boot-and-development-tools"
+  ],
+  "evidence_sources_checked": 13,
+  "research_reports": 5,
+  "reviewed_reports": 0,
+  "accepted_physical_outputs": 0,
+  "reviewed_natural_endpoints": 0,
+  "manufacturing_paths_closed": 0,
+  "all_known_selected_immediate_obligations": 63,
+  "review_operations": 8,
+  "live_registry_modified_by_worker": false,
+  "generated_site_modified_by_worker": false,
+  "source_files_modified": false,
+  "scope_limit": "Exactly five making-page evidence drafts; no sixth item researched. Stage only; no endpoint/closure/self-approval.",
+  "review_needed": [
+    "target numerical specification",
+    "inventory completeness/stock/intermediate allocation",
+    "exact source-to-capability fit",
+    "independent acceptance/metrology and first-tool build order",
+    "identity adaptation versus distinct tool states",
+    "coherent display encapsulation choice"
+  ]
+}

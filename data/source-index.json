@@ -1,0 +1,1968 @@
+[
+  {
+    "url": "https://archive.copper.org/education/copper-production/6.php",
+    "title": "Copper Development Association - Refining",
+    "topic": "copper refining",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\zoom\\content.js",
+      "source-project/smartphone-prototype-lab\\RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://archive.copper.org/publications/newsletters/innovations/1997/12/wiremetallurgy.php",
+    "title": "Copper Development Association · metallurgy of wire",
+    "topic": "copper wire metallurgy",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://archwilio.org.uk/her/chi3/report/page.php?watprn=GAT1694",
+    "title": "Heneb - Great Orme historic environment record",
+    "topic": "early copper ore extraction",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\scroll-retired\\branch.js",
+      "source-project/smartphone-prototype-lab\\RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://docs.klippel.de/db-lab/latest/simulation-auralisation/lsim/lsim.html",
+    "title": "KLIPPEL - Linear Simulation",
+    "topic": "speaker physics",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\BRIEF.md",
+      "source-project/smartphone-prototype-lab\\dist\\animation-window\\app.js",
+      "source-project/smartphone-prototype-lab\\dist\\animation-window\\journeys.js",
+      "source-project/smartphone-prototype-lab\\dist\\animation-window\\window.js",
+      "source-project/smartphone-prototype-lab\\dist\\canvas\\index.html",
+      "source-project/smartphone-prototype-lab\\dist\\encyclopedia\\index.html",
+      "source-project/smartphone-prototype-lab\\dist\\scroll\\index.html",
+      "source-project/smartphone-prototype-lab\\dist\\scroll-retired\\index.html",
+      "source-project/smartphone-prototype-lab\\dist\\stack\\app.js"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://docs.klippel.de/db-lab/latest/transducer-parameter-identification/lsi3/lsi3.html",
+    "title": "KLIPPEL - Large Signal Identification",
+    "topic": "speaker physics",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\BRIEF.md",
+      "source-project/smartphone-prototype-lab\\dist\\animation-window\\app.js",
+      "source-project/smartphone-prototype-lab\\dist\\animation-window\\journeys.js",
+      "source-project/smartphone-prototype-lab\\dist\\animation-window\\window.js",
+      "source-project/smartphone-prototype-lab\\dist\\canvas\\index.html",
+      "source-project/smartphone-prototype-lab\\dist\\encyclopedia\\index.html",
+      "source-project/smartphone-prototype-lab\\dist\\scroll\\index.html",
+      "source-project/smartphone-prototype-lab\\dist\\scroll-retired\\index.html",
+      "source-project/smartphone-prototype-lab\\dist\\stack\\app.js"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://jblpro.com/en-US/product_families/cone-transducers.html",
+    "title": "JBL Professional - Cone transducers",
+    "topic": "speaker transducers",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\zoom\\content.js"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://kupfer.de/kupferwerkstoffe/kupfer/produktionsprozesse/raffination/?lang=en",
+    "title": "Kupferverband - Refining",
+    "topic": "copper electrorefining",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\Smartphone_Logical_Design_Stories.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://mwswire.com/understanding-magnet-wire/",
+    "title": "MWS Wire · insulation and self-supporting coils",
+    "topic": "wire insulation and self-supporting coils",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://openstax.org/books/college-physics/pages/23-5-electric-generators",
+    "title": "OpenStax - Electric generators",
+    "topic": "electricity generation",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\zoom\\content.js"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://owolff.com/en/application-support/transducer-design/",
+    "title": "Ole Wolff · moving-coil transducer design",
+    "topic": "moving-coil transducer design",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://owolff.com/wp-content/uploads/2024/07/micro-loudspeakers_pt1.pdf",
+    "title": "Ole Wolff · micro-loudspeaker design, WP03",
+    "topic": "micro-loudspeaker design",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "proposals/2026-10-08-discovery/materials/sources.json"
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified",
+    "title_verified": false,
+    "claim_scopes": [
+      {
+        "id": "speaker-model",
+        "url": "https://owolff.com/wp-content/uploads/2024/07/micro-loudspeakers_pt1.pdf",
+        "checked": "inherited saved batch review only",
+        "scope": "Moving coil/magnetic-gap/diaphragm/acoustic chamber coupled architecture; no distortion or complete manufacturing qualification.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/sources.json"
+      }
+    ],
+    "prior_status": "inherited; not live-verified"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10972274/",
+    "title": "Kowalik et al. · laboratory copper electrorefining (2024)",
+    "topic": "laboratory copper electrorefining",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://semspub.epa.gov/work/HQ/189955.pdf",
+    "title": "EPA - copper processing document (local descriptive label)",
+    "topic": "copper smelting and refining",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://support.fairphone.com/hc/en-us/articles/18744611991825-Fairphone-5-Replace-a-spare-part",
+    "title": "Fairphone · module assembly and interfaces",
+    "topic": "handset module assembly",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.arnoldmagnetics.com/resources/magnet-manufacturing-process/",
+    "title": "Arnold Magnetic Technologies - Magnet manufacturing process",
+    "topic": "permanent magnet manufacture",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\encyclopedia\\article-page.js",
+      "source-project/smartphone-prototype-lab\\MAGNET-RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.asml.com/en/company/stories/2021/semiconductor-manufacturing-process-steps",
+    "title": "ASML - Six crucial steps in semiconductor manufacturing",
+    "topic": "complete semiconductor fabrication",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\scroll-retired\\branch.js",
+      "source-project/smartphone-prototype-lab\\RESEARCH.md",
+      "source-project/research-staging\\prior-reference\\Smartphone_Logical_Design_Stories.md",
+      "proposals/2026-10-08-discovery/electronics/sources.json"
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified",
+    "title_verified": false,
+    "claim_scopes": [
+      {
+        "id": "asml-process-steps",
+        "url": "https://www.asml.com/en/company/stories/2021/semiconductor-manufacturing-process-steps",
+        "title": "Six crucial steps in semiconductor manufacturing",
+        "retrieval": "Full page read",
+        "supports": [
+          "Wafer fabrication uses distinct deposition, resist, lithography, etch, implantation and packaging stages.",
+          "Silicon wafers and patterned dies are distinct from fabrication equipment."
+        ],
+        "does_not_establish": [
+          "A complete process recipe for any proposed chip",
+          "Phone-level performance or selected process node",
+          "A contamination specification",
+          "A wirebond package meeting handset size, power and I/O needs",
+          "An Earth-without-manufacture bootstrap"
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/sources.json"
+      }
+    ],
+    "prior_status": "inherited; not live-verified"
+  },
+  {
+    "url": "https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made",
+    "title": "ASML - How microchips are made",
+    "topic": "complete semiconductor fabrication",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\Smartphone_Logical_Design_Stories.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.asml.com/en/technology/lithography-principles",
+    "title": "ASML - Lithography principles",
+    "topic": "lithography",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors",
+    "title": "ASML - Lenses and mirrors",
+    "topic": "DUV and EUV optics",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\scroll-retired\\branch.js",
+      "source-project/smartphone-prototype-lab\\dist\\zoom\\content.js",
+      "source-project/smartphone-prototype-lab\\RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.asml.com/en/technology/lithography-principles/light-and-lasers",
+    "title": "ASML - Light and lasers",
+    "topic": "lithography light source",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\zoom\\content.js"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.asml.com/en/technology/lithography-principles/measuring-accuracy",
+    "title": "ASML - Measuring accuracy",
+    "topic": "lithography metrology",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\Smartphone_Logical_Design_Stories.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.asml.com/en/technology/lithography-principles/mechanics-and-mechatronics",
+    "title": "ASML - Mechanics and mechatronics",
+    "topic": "lithography positioning",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\Smartphone_Logical_Design_Stories.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.copper.org/education/copper-production/?level=1",
+    "title": "Copper Development Association - Copper production",
+    "topic": "copper processing routes",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.eia.gov/energyexplained/electricity/how-electricity-is-generated.php",
+    "title": "EIA - How electricity is generated",
+    "topic": "electricity generation",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\scroll-retired\\branch.js",
+      "source-project/smartphone-prototype-lab\\RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.elektrisola.com/en-us/Magnet-Wire/Info",
+    "title": "Elektrisola · wire-drawing and enamelling",
+    "topic": "wire drawing and enamelling",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.elektrisola.com/en/Enamelled-Wire/Info",
+    "title": "Elektrisola - Enamelled wire production",
+    "topic": "wire drawing and enamelling",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\zoom\\content.js"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.energy.gov/cmei/systems/how-do-wind-turbines-work",
+    "title": "DOE - How do wind turbines work",
+    "topic": "mechanical-to-electrical energy conversion",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\scroll-retired\\branch.js",
+      "source-project/smartphone-prototype-lab\\RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.energy.gov/cmei/water/how-hydropower-works",
+    "title": "DOE - How hydropower works",
+    "topic": "hydropower generation",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\Smartphone_Logical_Design_Stories.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.epa.gov/sites/default/files/2020-11/documents/c12s03.pdf",
+    "title": "EPA - Primary copper smelting / electrolytic refining",
+    "topic": "copper smelting and refining",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\scroll-retired\\branch.js",
+      "source-project/smartphone-prototype-lab\\RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.greatormemines.info/wp-content/uploads/2023/03/Teachers-resource-FINAL.pdf",
+    "title": "Great Orme Mines - Teachers resource",
+    "topic": "early copper ore extraction",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\scroll-retired\\branch.js",
+      "source-project/smartphone-prototype-lab\\RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.lpmagnetwire.com/enameledwire/manufacturing-process-of-magnet-wire.html",
+    "title": "LP Industry · magnet-wire manufacturing",
+    "topic": "wire coating and curing",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.nps.gov/kewe/learn/historyculture/archeology.htm",
+    "title": "National Park Service · early copper mining",
+    "topic": "native copper extraction",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.protoexpress.com/kb/pcb-assembly-process-overview/",
+    "title": "Sierra Circuits · PCB assembly process",
+    "topic": "circuit board assembly",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.tdk.com/en/tech-mag/ferrite02/001",
+    "title": "TDK - hard ferrite explanation",
+    "topic": "permanent magnets versus soft ferrite",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\encyclopedia\\article-page.js",
+      "source-project/smartphone-prototype-lab\\MAGNET-RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.usgs.gov/publications/age-native-copper-mineralization-keweenaw-peninsula-michigan",
+    "title": "USGS · native-copper deposits in the Keweenaw",
+    "topic": "native copper geology",
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.zeiss.com/semiconductor-manufacturing-technology/products/lithography-optics.html",
+    "title": "ZEISS - Lithography optics",
+    "topic": "lithography optics",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.zeiss.com/semiconductor-manufacturing-technology/smt-magazine/so-does-euv-lithography-work.html",
+    "title": "ZEISS - How EUV lithography works",
+    "topic": "EUV architecture",
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\RESEARCH.md"
+    ],
+    "status": "inherited; not live-verified",
+    "title_verified": false
+  },
+  {
+    "url": "https://www.corning.com/gorillaglass/worldwide/en/faqs.html",
+    "title": "corning strengthening",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "corning-strengthening",
+        "url": "https://www.corning.com/gorillaglass/worldwide/en/faqs.html",
+        "checked": "2026-10-08",
+        "scope": "Manufacturer describes sodium-to-potassium molten-salt ion exchange. Supports principle only; no public complete recipe or local manufacturing proof.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.usgs.gov/publications/mineral-resource-month-industrial-sand-and-gravel",
+    "title": "usgs silica",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "usgs-silica",
+        "url": "https://www.usgs.gov/publications/mineral-resource-month-industrial-sand-and-gravel",
+        "checked": "2026-10-08",
+        "scope": "Quartz-rich industrial sand distinct from ordinary sand; glass uses and natural deposit class. Does not identify arrival-site availability or glass-grade qualification.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://pubs.usgs.gov/info/clays/",
+    "title": "usgs clay",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "usgs-clay",
+        "url": "https://pubs.usgs.gov/info/clays/",
+        "checked": "2026-10-08",
+        "scope": "Clay geology/variable mineral mixtures and contamination. Supports deposit hypotheses; does not prove pit vessel recipe or refractory suitability.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.nps.gov/subjects/nationalhistoriclandmarks/upload/Minong-Copper-Mining_NHL_WSecFinal_2021-05-19_Redacted.pdf",
+    "title": "nps native copper",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "nps-native-copper",
+        "url": "https://www.nps.gov/subjects/nationalhistoriclandmarks/upload/Minong-Copper-Mining_NHL_WSecFinal_2021-05-19_Redacted.pdf",
+        "checked": "2026-10-08",
+        "scope": "Archaeological native-copper mining and stone-tool extraction. No chosen-site access, usable stock/purity or phone-wire proof.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.energy.gov/sites/default/files/2024-12/20212024-Four%20Year%20Review%20of%20Supply%20Chains%20for%20the%20Advanced%20Batteries%20Sector.pdf",
+    "title": "doe battery chain",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "doe-battery-chain",
+        "url": "https://www.energy.gov/sites/default/files/2024-12/20212024-Four%20Year%20Review%20of%20Supply%20Chains%20for%20the%20Advanced%20Batteries%20Sector.pdf",
+        "checked": "2026-10-08",
+        "scope": "Battery active material, electrolyte, binder, separator and collector manufacturing decomposition. LCO/graphite selection and recipe details are discovery inference, not performance acceptance.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://patents.google.com/patent/US5061412A/en",
+    "title": "ferrite patent",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "ferrite-patent",
+        "url": "https://patents.google.com/patent/US5061412A/en",
+        "checked": "inherited saved batch review only",
+        "scope": "Candidate strontium-ferrite preparation architecture. Pressure discrepancy and selected formulation unresolved; not recipe certification.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.arnoldmagnetics.com/resources/magnetizing/",
+    "title": "magnetizing guide",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "magnetizing-guide",
+        "url": "https://www.arnoldmagnetics.com/resources/magnetizing/",
+        "checked": "inherited saved batch review only",
+        "scope": "Final magnetization requires prior electrical magnetizer; not source for nature-built equipment.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://kurtzersa.com/services/solder-wiki/convection-reflow-systems",
+    "title": "ersa reflow",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/frontier-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "ersa-reflow",
+        "url": "https://kurtzersa.com/services/solder-wiki/convection-reflow-systems",
+        "checked": "2026-10-08",
+        "scope": "Manufacturer supports heater/circulated air or nitrogen/cooling/control/transport decomposition. Selected batch/manual layout is inference; industrial conveyor not mandatory for one-off hypothesis.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/frontier-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://qman.elektrisola.com/ru/Enamelled-Wire/Info",
+    "title": "elektrisola wire",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/frontier-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "elektrisola-wire",
+        "url": "https://qman.elektrisola.com/ru/Enamelled-Wire/Info",
+        "checked": "2026-10-08",
+        "scope": "Manufacturer describes staged drawing dies, protective anneal, enamel application, cure, lubrication/tension/spooling. Does not prove our manual equipment or fine-wire grade.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/frontier-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://api.grundfos.com/literature/Grundfosliterature-6253516.pdf",
+    "title": "grundfos pump",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/frontier-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "grundfos-pump",
+        "url": "https://api.grundfos.com/literature/Grundfosliterature-6253516.pdf",
+        "checked": "2026-10-08",
+        "scope": "Manufacturer manual exposes piston/slide and inlet/outlet valve leakage. Our hand-driven water pump is architecture inference, not claimed manufacturer implementation or vacuum performance.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/frontier-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.syensqo.com/en/brands/solef-pvdf/li-ion-batteries",
+    "title": "syensqo pvdf",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "syensqo-pvdf",
+        "url": "https://www.syensqo.com/en/brands/solef-pvdf/li-ion-batteries",
+        "scope": "Manufacturer supports PVDF electrode binder use and NMP solubility. Does not establish our monomer manufacture, polymerization recipe or phone-cell grade.",
+        "checked": "2026-10-09",
+        "evidence_status": "selective-primary-source-sanity-check",
+        "origin_file": "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.molchem.uni-freiburg.de/research/li-ion/li-ion-intro",
+    "title": "freiburg electrolyte",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "freiburg-electrolyte",
+        "url": "https://www.molchem.uni-freiburg.de/research/li-ion/li-ion-intro",
+        "scope": "University research group identifies typical LiPF6 in cyclic/linear alkyl carbonates. Does not specify selected blend/concentration/additives or synthesis/purity.",
+        "checked": "2026-10-09",
+        "evidence_status": "selective-primary-source-sanity-check",
+        "origin_file": "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.emdgroup.com/en/expertise/displays/solutions/oled-display-materials.html",
+    "title": "emd oled",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "emd-oled",
+        "url": "https://www.emdgroup.com/en/expertise/displays/solutions/oled-display-materials.html",
+        "scope": "Manufacturer describes vacuum thermal evaporation, highly purified materials and transport/matrix/blocking functions. RGB feed separation and our selected stack are engineering inference; molecules and exact recipe unknown.",
+        "checked": "2026-10-09",
+        "evidence_status": "selective-primary-source-sanity-check",
+        "origin_file": "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.lesker.com/newweb/deposition_materials/pdf/13-153-ma-ds-cmm-capabilities-datasheet.pdf",
+    "title": "lesker oxide",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "lesker-oxide",
+        "url": "https://www.lesker.com/newweb/deposition_materials/pdf/13-153-ma-ds-cmm-capabilities-datasheet.pdf",
+        "scope": "Manufacturer describes mixed oxide target powder mixing/calcination/phase and size analysis/pressing/sintering/finishing/cleaning. Does not validate our ITO ratio or homemade equipment.",
+        "checked": "2026-10-09",
+        "evidence_status": "selective-primary-source-sanity-check",
+        "origin_file": "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.cnfusers.cornell.edu/node/147",
+    "title": "cornell ito",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cornell-ito",
+        "url": "https://www.cnfusers.cornell.edu/node/147",
+        "scope": "University facility lists ITO sputtering and oxygen introduction. Our ceramic target architecture is a separate selected hypothesis; no imported tool allowed.",
+        "checked": "2026-10-09",
+        "evidence_status": "selective-primary-source-sanity-check",
+        "origin_file": "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.linde-gas.com/products-and-services/gases/atmospheric-gases",
+    "title": "linde atmospheric",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "linde-atmospheric",
+        "url": "https://www.linde-gas.com/products-and-services/gases/atmospheric-gases",
+        "scope": "Manufacturer supports cryogenic separation/purification of oxygen, nitrogen and argon from air. Does not supply compressors, refrigeration, independent gas assay or one-off scaling.",
+        "checked": "2026-10-09",
+        "evidence_status": "selective-primary-source-sanity-check",
+        "origin_file": "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://ig.linde-gas.com/hydrogen-production-processing",
+    "title": "linde hydrogen",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "linde-hydrogen",
+        "url": "https://ig.linde-gas.com/hydrogen-production-processing",
+        "scope": "Manufacturer identifies electrolysis and later hydrogen cleaning to high purity. Alkaline-cell layout is inference; source does not prove first electrode/separator/power/grade.",
+        "checked": "2026-10-09",
+        "evidence_status": "selective-primary-source-sanity-check",
+        "origin_file": "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.corning.com/worldwide/en/innovation/materials-science/glass/how-glass-made.html",
+    "title": "corning glass",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "corning-glass",
+        "url": "https://www.corning.com/worldwide/en/innovation/materials-science/glass/how-glass-made.html",
+        "scope": "Manufacturer supports silica/sodium carbonate/calcium carbonate batch and distinct glass/strengthening processes. No formulation is adopted, no generic glass qualification for flagship phone.",
+        "checked": "2026-10-09",
+        "evidence_status": "selective-primary-source-sanity-check",
+        "origin_file": "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://ntrs.nasa.gov/api/citations/19860006910/downloads/19860006910.pdf?attachment=true",
+    "title": "nasa polyimide",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "nasa-polyimide",
+        "url": "https://ntrs.nasa.gov/api/citations/19860006910/downloads/19860006910.pdf?attachment=true",
+        "scope": "NASA primary memorandum supports diamine/dianhydride and polyamic-acid/polyimide process states. Exact selected monomers/solvent and film conditions remain open; not a commercial film recipe.",
+        "checked": "2026-10-09",
+        "evidence_status": "selective-primary-source-sanity-check",
+        "retrieval_limit": "Search-index primary PDF excerpt inspected; direct full PDF fetch returned 403. Full chemistry claim must be rechecked before source-checked page status.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.ise.fraunhofer.de/en/business-areas/electrical-energy-storage/production-technology-for-batteries/battery-cell-production.html",
+    "title": "fraunhofer cell",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "fraunhofer-cell",
+        "url": "https://www.ise.fraunhofer.de/en/business-areas/electrical-energy-storage/production-technology-for-batteries/battery-cell-production.html",
+        "scope": "Institution describes ultrasonic tab welding, pouch forming/sealing, vacuum filling/wetting, formation under pressure, degassing/reseal and cycling. Electrode slurry implementation and equipment construction are still engineering inference.",
+        "checked": "2026-10-09",
+        "evidence_status": "selective-primary-source-sanity-check",
+        "origin_file": "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.global.dnp/en/our-business/innovation/battery-pouch/",
+    "title": "dnp pouch",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "dnp-pouch",
+        "url": "https://www.global.dnp/en/our-business/innovation/battery-pouch/",
+        "scope": "Manufacturer supports pouch sealing/insulation/heat/corrosion functions, not complete laminate/tab-seal recipe or our grade.",
+        "checked": "2026-10-09",
+        "evidence_status": "selective-primary-source-sanity-check",
+        "origin_file": "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.chem.ucalgary.ca/courses/351/laboratory/353equipment.html",
+    "title": "calgary lab glass",
+    "title_verified": false,
+    "topic": "materials",
+    "provenance": [
+      "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "calgary-lab-glass",
+        "url": "https://www.chem.ucalgary.ca/courses/351/laboratory/353equipment.html",
+        "scope": "University lab apparatus identifies distillation flask/head/condenser/receiver and ground-glass joint connections. Supports alternative architecture only; does not solve our first glass feed or joint precision/purity bootstrap.",
+        "checked": "2026-10-09",
+        "evidence_status": "selective-primary-source-sanity-check",
+        "retrieval_limit": "Search-index university page excerpt inspected; direct page fetch returned 502. Architecture candidate remains unselected and blocked.",
+        "origin_file": "proposals/2026-10-08-discovery/materials/breadth-pass-03-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.st.com/content/st_com/en/about/innovation-and-technology/mems.html",
+    "title": "MEMS process technology",
+    "title_verified": true,
+    "topic": "electronics",
+    "provenance": [
+      "proposals/2026-10-08-discovery/electronics/sources.json",
+      "proposals/2026-10-08-discovery/electronics/frontier-sources.json",
+      "proposals/2026-10-08-discovery/research/mems/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "st-mems-process",
+        "url": "https://www.st.com/content/st_com/en/about/innovation-and-technology/mems.html",
+        "title": "MEMS process technology",
+        "retrieval": "Full page read",
+        "supports": [
+          "Micromachined silicon mechanical structures and CMOS readout are different requirements.",
+          "An industry example uses polysilicon surface micromachining, cavity sealing, and separate MEMS/ASIC dice in one package."
+        ],
+        "does_not_establish": [
+          "An accessible complete ThELMA recipe",
+          "The selected proposal reproduces ST devices",
+          "A silicon cap is the only suitable cap material",
+          "Exact moving geometry, layer dimensions, cavity atmosphere or package qualification"
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/sources.json"
+      },
+      {
+        "id": "frontier-st-dual-chip",
+        "title": "MEMS manufacturing technology",
+        "url": "https://www.st.com/content/st_com/en/about/innovation-and-technology/mems.html",
+        "type": "manufacturer primary architecture description",
+        "checked": "2026-10-08",
+        "supports": [
+          "Polysilicon surface micromachining is a relevant inertial-sensor architecture; mechanical and readout dice remain separate physical responsibilities."
+        ],
+        "affected_outputs": [
+          "patterned-inertial-wafer",
+          "accelerometer"
+        ],
+        "does_not_establish": [
+          "A reproducible proprietary ThELMA recipe or that this open single-layer adapted candidate reaches modern handset performance."
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/frontier-sources.json"
+      },
+      {
+        "id": "mems-st-thelma",
+        "title": "MEMS manufacturing: ThELMA and integration",
+        "url": "https://www.st.com/content/st_com/en/about/innovation-and-technology/mems.html",
+        "type": "manufacturer primary process architecture",
+        "read_scope": "ThELMA surface micromachining and separate MEMS/ASIC integration",
+        "supports": [
+          "Polysilicon surface-micromachining architecture",
+          "Separate MEMS and ASIC dice"
+        ],
+        "does_not_establish": [
+          "Public reproducible full proprietary recipe",
+          "Compatibility of our generic wafer/etch route",
+          "An obligatory vacuum level for every accelerometer"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/mems/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified",
+    "prior_status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.st.com/resource/en/application_note/an4508-parameters-and-calibration-of-a-lowg-3axis-accelerometer-stmicroelectronics.pdf",
+    "title": "AN4508: Parameters and calibration of a low-g 3-axis accelerometer",
+    "title_verified": true,
+    "topic": "electronics",
+    "provenance": [
+      "proposals/2026-10-08-discovery/electronics/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "st-accelerometer-calibration",
+        "url": "https://www.st.com/resource/en/application_note/an4508-parameters-and-calibration-of-a-lowg-3axis-accelerometer-stmicroelectronics.pdf",
+        "title": "AN4508: Parameters and calibration of a low-g 3-axis accelerometer",
+        "retrieval": "Full PDF text read",
+        "supports": [
+          "Supply, bandwidth, scale, offset, temperature, noise and axis relationships matter to accelerometer acceptance.",
+          "Stationary orientations relative to gravity can inform accelerometer calibration."
+        ],
+        "does_not_establish": [
+          "A gyro or magnetometer calibration recipe",
+          "Final project acceptance targets",
+          "Absolute local gravitational acceleration accuracy without independent evidence",
+          "Manufacture of the first calibrated instrument"
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.siltronic.com/fileadmin/investorrelations/Pr%C3%A4sentation/Siltronic_Fact_Book_2017.pdf",
+    "title": "Siltronic Fact Book 2017",
+    "title_verified": true,
+    "topic": "electronics",
+    "provenance": [
+      "proposals/2026-10-08-discovery/electronics/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "siltronic-wafer-states",
+        "url": "https://www.siltronic.com/fileadmin/investorrelations/Pr%C3%A4sentation/Siltronic_Fact_Book_2017.pdf",
+        "title": "Siltronic Fact Book 2017",
+        "retrieval": "Full PDF text read; wafer process figures also represented in search extraction",
+        "supports": [
+          "Polysilicon, crystal ingot and finished wafer are distinct physical states.",
+          "Czochralski crystal pulling precedes slicing, lapping, cleaning/etching and polishing in the selected path."
+        ],
+        "does_not_establish": [
+          "A first seed crystal route",
+          "A first high-purity quartz crucible route",
+          "Chip-specific wafer requirements",
+          "Equipment recipes",
+          "Electronics-free crystal grower control"
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://reports.wacker.com/2022/annual-report/sustainable-solutions/purity-is-our-recipe-for-success.html",
+    "title": "Purity Is Our Recipe for Success",
+    "title_verified": true,
+    "topic": "electronics",
+    "provenance": [
+      "proposals/2026-10-08-discovery/electronics/sources.json",
+      "proposals/2026-10-08-discovery/research/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "wacker-siemens-refining",
+        "url": "https://reports.wacker.com/2022/annual-report/sustainable-solutions/purity-is-our-recipe-for-success.html",
+        "title": "Purity Is Our Recipe for Success",
+        "retrieval": "Full page read",
+        "supports": [
+          "An industrial polysilicon path transforms metallurgical silicon through chlorosilane purification and deposition.",
+          "Siemens-type deposition uses prior starter rods and requires additional handling and cleaning for semiconductor feedstock."
+        ],
+        "does_not_establish": [
+          "A first starter rod route",
+          "A complete gas/reaction/byproduct recipe",
+          "An impurity acceptance specification",
+          "The earliest sufficient electrical supply",
+          "A complete reactor construction route"
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/sources.json"
+      },
+      {
+        "id": "audit-wacker-polysilicon",
+        "title": "Purity Is Our Recipe for Success",
+        "url": "https://reports.wacker.com/2022/annual-report/sustainable-solutions/purity-is-our-recipe-for-success.html",
+        "type": "manufacturer primary industrial account",
+        "read_scope": "Seed-rod deposition and monocrystal conversion passages",
+        "supports": [
+          "Industrial polysilicon deposition onto seed rods",
+          "Seed-crystal prerequisite in later crystal conversion"
+        ],
+        "does_not_establish": [
+          "First starter rods or crystal seeds",
+          "Our furnace/reactor construction",
+          "Quantity, final semiconductor purity or handset qualification"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified",
+    "prior_status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.wacker.com/h/en-us/medias/7416-EN.pdf",
+    "title": "Wacker polysilicon production brochure",
+    "title_verified": true,
+    "topic": "electronics",
+    "provenance": [
+      "proposals/2026-10-08-discovery/electronics/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "wacker-quartz-preview",
+        "url": "https://www.wacker.com/h/en-us/medias/7416-EN.pdf",
+        "title": "Wacker polysilicon production brochure",
+        "retrieval": "Search-extracted production steps checked; full PDF open failed",
+        "supports": [
+          "Preview describes quartz plus carbon to metallurgical silicon, conversion using hydrogen chloride, then trichlorosilane distillation."
+        ],
+        "does_not_establish": [
+          "Full document independently read",
+          "Geological occurrence identification or collection sufficiency",
+          "Energy requirements, electrode details or a complete reduction-furnace recipe"
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://amkor.com/packaging/laminate/fccsp/",
+    "title": "Flip Chip Chip Scale Package",
+    "title_verified": true,
+    "topic": "electronics",
+    "provenance": [
+      "proposals/2026-10-08-discovery/electronics/sources.json",
+      "proposals/2026-10-08-discovery/research/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "amkor-fccsp",
+        "url": "https://amkor.com/packaging/laminate/fccsp/",
+        "title": "Flip Chip Chip Scale Package",
+        "retrieval": "Primary manufacturer page checked during independent package review",
+        "supports": [
+          "Flip-chip packaging is an applicable alternative for mobile application processors, baseband, RF and power management; package architecture cannot be ignored."
+        ],
+        "does_not_establish": [
+          "Our wirebond hypothesis meets flagship form factor or performance",
+          "A complete first flip-chip equipment/materials path",
+          "The selected alternative or final device package"
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/sources.json"
+      },
+      {
+        "id": "audit-amkor-fccsp",
+        "title": "fcCSP Flip Chip CSP",
+        "url": "https://amkor.com/packaging/laminate/fccsp/",
+        "type": "manufacturer primary packaging account",
+        "read_scope": "Package architecture and mobile use cases",
+        "supports": [
+          "Bump/substrate mobile packaging alternative",
+          "Packaging electrical/form-factor demands matter"
+        ],
+        "does_not_establish": [
+          "Our manufacturing route",
+          "Universal requirement for all handset chips",
+          "That wirebond candidate meets flagship demands"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified",
+    "prior_status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://corporate.murata.com/en-us/technology/technology-platform/production-technology/green-sheet-process",
+    "title": "Green Sheet Process Technology",
+    "title_verified": true,
+    "topic": "electronics",
+    "provenance": [
+      "proposals/2026-10-08-discovery/electronics/frontier-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "frontier-murata-green-sheets",
+        "title": "Green Sheet Process Technology",
+        "url": "https://corporate.murata.com/en-us/technology/technology-platform/production-technology/green-sheet-process",
+        "type": "manufacturer primary process description",
+        "checked": "2026-10-08",
+        "supports": [
+          "Unfired ceramic/binder sheet state precedes electrode printing, stacking and pressing."
+        ],
+        "affected_outputs": [
+          "capacitor-green-sheets",
+          "printed-capacitor-laminate"
+        ],
+        "does_not_establish": [
+          "Our dielectric/paste composition, equipment cleanliness, layer thickness, quantity, yield or handset qualification."
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/frontier-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.murata.com/en-us/support/faqs/capacitor/ceramiccapacitor/conf/0002",
+    "title": "Production process of multilayer ceramic capacitors",
+    "title_verified": true,
+    "topic": "electronics",
+    "provenance": [
+      "proposals/2026-10-08-discovery/electronics/frontier-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "frontier-murata-capacitor-sequence",
+        "title": "Production process of multilayer ceramic capacitors",
+        "url": "https://www.murata.com/en-us/support/faqs/capacitor/ceramiccapacitor/conf/0002",
+        "type": "manufacturer primary manufacturing FAQ",
+        "checked": "2026-10-08",
+        "supports": [
+          "Cut and fired internal-electrode body precedes external electrodes, plating and measurement."
+        ],
+        "affected_outputs": [
+          "fired-capacitor-chips",
+          "multilayer-ceramic-capacitors"
+        ],
+        "does_not_establish": [
+          "Selected atmosphere, our furnace or printing capability, electrical acceptance or a first passive instrument path."
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/frontier-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.esda.org/esd-overview/esd-fundamentals/part-3-basic-esd-control-procedures-and-materials/",
+    "title": "EOS/ESD Fundamentals Part 3",
+    "title_verified": true,
+    "topic": "electronics",
+    "provenance": [
+      "proposals/2026-10-08-discovery/electronics/frontier-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "frontier-esda-workstation",
+        "title": "EOS/ESD Fundamentals Part 3",
+        "url": "https://www.esda.org/esd-overview/esd-fundamentals/part-3-basic-esd-control-procedures-and-materials/",
+        "type": "professional standards association primary guidance",
+        "checked": "2026-10-08",
+        "supports": [
+          "Worksurface, personnel grounding and common-potential bonding are separate physical obligations; ordinary insulators are not discharged merely by grounding."
+        ],
+        "affected_outputs": [
+          "electrostatic-protection",
+          "esd-dissipative-mat",
+          "esd-personnel-band",
+          "esd-ground-leads",
+          "esd-protective-container"
+        ],
+        "does_not_establish": [
+          "Our carbon-loaded formulations or required resistance, current limiting, earth grounding, shielding, cleanliness or device compatibility."
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/frontier-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://pages.jh.edu/aandreo1/487/487Archive/Resources/CAD/Foundry/PolyMUMPS/PolyMUMPs_DR_v11.pdf",
+    "title": "PolyMUMPs Design Handbook revision 11, MEMSCAP",
+    "title_verified": true,
+    "topic": "electronics",
+    "provenance": [
+      "proposals/2026-10-08-discovery/electronics/frontier-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "frontier-polymumps-primary",
+        "title": "PolyMUMPs Design Handbook revision 11, MEMSCAP",
+        "url": "https://pages.jh.edu/aandreo1/487/487Archive/Resources/CAD/Foundry/PolyMUMPS/PolyMUMPs_DR_v11.pdf",
+        "type": "original foundry handbook hosted by university",
+        "checked": "2026-10-08",
+        "read_scope": "Chapter 1 process and section 2.8 release/critical-point drying",
+        "supports": [
+          "Deposited polysilicon structures, sacrificial phosphosilicate oxide and nitride isolation have distinct functions; anchor openings, supported dicing, wet release and critical-point drying are explicit process obligations."
+        ],
+        "affected_outputs": [
+          "mems-isolated-substrate-wafer",
+          "mems-poly0-routing-wafer",
+          "mems-sacrificial-stack-wafer",
+          "patterned-inertial-wafer",
+          "unreleased-inertial-die",
+          "released-inertial-die",
+          "mems-critical-point-dryer"
+        ],
+        "does_not_establish": [
+          "Our single-structural-layer adaptation, cap integration, exact reagents/settings, first equipment construction, complete stiction elimination or smartphone accelerometer performance."
+        ],
+        "access_notes": "Official MEMSCAP revision 13 URL failed. Berkeley mirrors failed on direct open; original revision 11 on Johns Hopkins opened. No handbook numerical recipe settings adopted.",
+        "independent_review_note": "Independent review correction: original handbook places metal after structural processing. Early feedthrough metal in this candidate has no established thermal compatibility or fabrication chronology; this is an explicit blocker, not a selected material/temperature solution.",
+        "origin_file": "proposals/2026-10-08-discovery/electronics/frontier-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://engineering.purdue.edu/oxidemems/conferences/transducers2009/PDFs/Papers/002_3002.pdf",
+    "title": "Wafer level packaging of MEMS, Esashi, Transducers 2009",
+    "title_verified": true,
+    "topic": "electronics",
+    "provenance": [
+      "proposals/2026-10-08-discovery/electronics/frontier-sources.json",
+      "proposals/2026-10-08-discovery/research/mems/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "frontier-esashi-cavity-protection",
+        "title": "Wafer level packaging of MEMS, Esashi, Transducers 2009",
+        "url": "https://engineering.purdue.edu/oxidemems/conferences/transducers2009/PDFs/Papers/002_3002.pdf",
+        "type": "original researcher conference paper",
+        "checked": "2026-10-08",
+        "read_scope": "Cavity/feedthrough introduction and glass-frit seal discussion",
+        "supports": [
+          "Moving structures need cavity protection and electrical access; glass-frit sealing can accommodate a lateral feedthrough; ordinary plastic molding cannot directly protect exposed moving mechanics."
+        ],
+        "affected_outputs": [
+          "mems-feedthrough-patterned-wafer",
+          "mems-frit-paste-stock",
+          "mems-ring-coated-cap-die",
+          "mems-cap-wafer",
+          "accelerometer-mems-die",
+          "accelerometer"
+        ],
+        "does_not_establish": [
+          "Our die-level cap sequence, frit composition, hermeticity, thermal stress, feedthrough planarity, target damping pressure or accepted final package."
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/frontier-sources.json"
+      },
+      {
+        "id": "mems-esashi-packaging",
+        "title": "Wafer level packaging of MEMS, Esashi, Transducers2009",
+        "url": "https://engineering.purdue.edu/oxidemems/conferences/transducers2009/PDFs/Papers/002_3002.pdf",
+        "type": "original conference paper by process researcher",
+        "read_scope": "Introduction; accelerator capping/interconnect examples; cavity-pressure section",
+        "supports": [
+          "Protected cap/shell cavity with electrical access",
+          "Moving elements cannot be directly embedded in ordinary plastic molding",
+          "Wafer capping/protection can precede dicing",
+          "Cavity pressure for damping differs from universal vacuum requirement"
+        ],
+        "does_not_establish": [
+          "Selected bonding chemistry for our die",
+          "Exact required cavity pressure/leak rate",
+          "Our dicing/release/bond chronology",
+          "Qualified final package"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/mems/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified",
+    "prior_status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.itl.nist.gov/div898/handbook/mpc/section3/mpc3.htm",
+    "title": "Calibration, NIST Engineering Statistics Handbook",
+    "title_verified": true,
+    "topic": "electronics",
+    "provenance": [
+      "proposals/2026-10-08-discovery/electronics/frontier-sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "frontier-nist-calibration",
+        "title": "Calibration, NIST Engineering Statistics Handbook",
+        "url": "https://www.itl.nist.gov/div898/handbook/mpc/section3/mpc3.htm",
+        "type": "national metrology institute primary guidance",
+        "checked": "2026-10-08",
+        "supports": [
+          "Calibration requires comparison against a reference or designated process and quantified uncertainty."
+        ],
+        "affected_outputs": [
+          "calibration-standards",
+          "electrical-reference-instrument",
+          "meter",
+          "dimensional-metrology"
+        ],
+        "does_not_establish": [
+          "First physical realization of our length/electrical/mass/time/temperature references, transfer chain or instrument range/uncertainty."
+        ],
+        "origin_file": "proposals/2026-10-08-discovery/electronics/frontier-sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.trioptics.com/products/procam-camera-modules-active-alignment-and-testing",
+    "title": "TRIOPTICS ProCam active alignment",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-trioptics-active",
+        "url": "https://www.trioptics.com/products/procam-camera-modules-active-alignment-and-testing",
+        "title": "TRIOPTICS ProCam active alignment",
+        "supports": "Live sensor readout, multiple-axis lens/sensor positioning, target generation, dispensing and curing are parts of active alignment.",
+        "limits": "Commercial apparatus demonstrates the architecture, not a bootstrap recipe, required precision or handset acceptance.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.edmundoptics.com/capabilities/precision-optics/capabilities/optical-coatings/",
+    "title": "Edmund Optics optical coatings",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-edmund-coatings",
+        "url": "https://www.edmundoptics.com/capabilities/precision-optics/capabilities/optical-coatings/",
+        "title": "Edmund Optics optical coatings",
+        "supports": "AR and spectral filter multilayers can be made by controlled vacuum deposition.",
+        "limits": "Does not provide selected glass, oxide chemistry, layer recipe, machine construction or phone-level requirements.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.edmundoptics.com/knowledge-center/application-notes/lasers/anti-reflection-coatings/",
+    "title": "Edmund Optics AR coatings",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-edmund-ar",
+        "url": "https://www.edmundoptics.com/knowledge-center/application-notes/lasers/anti-reflection-coatings/",
+        "title": "Edmund Optics AR coatings",
+        "supports": "AR response depends on wavelength and incidence angle; multilayer designs have distinct spectral behavior.",
+        "limits": "No adopted phone coating design or measured target acceptance.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.sony-semicon.com/en/products/is/mobile/index/text2.html",
+    "title": "Sony mobile image sensor layer structures",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-sony-stack",
+        "url": "https://www.sony-semicon.com/en/products/is/mobile/index/text2.html",
+        "title": "Sony mobile image sensor layer structures",
+        "supports": "Color filters, silicon photodiodes and interconnect are optical/electrical layers; frontside, backside and stacked architectures differ.",
+        "limits": "This source does not establish our frontside process performance or a manufacturing recipe.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.sony-semicon.com/en/technology/mobile/rb2x2-ocl.html",
+    "title": "Sony on-chip lenses",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-sony-ocl",
+        "url": "https://www.sony-semicon.com/en/technology/mobile/rb2x2-ocl.html",
+        "title": "Sony on-chip lenses",
+        "supports": "On-chip lenses are coordinated with pixel structure.",
+        "limits": "No prescription for proposed conventional polymer reflow process or modern capability.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://pages.rohm.com/motordrivers",
+    "title": "ROHM motor driver circuits",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-rohm-driver",
+        "url": "https://pages.rohm.com/motordrivers",
+        "title": "ROHM motor driver circuits",
+        "supports": "Actuation requires driver hardware, peripheral circuitry, interfaces and supply; simple bridges do not establish camera focus performance.",
+        "limits": "Discrete camera drive below is a design hypothesis; closed-loop bandwidth/noise/size remain unknown.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://corporate.murata.com/en-us/technology/technology-applications/saw",
+    "title": "Murata SAW structure and manufacturing",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-murata-saw",
+        "url": "https://corporate.murata.com/en-us/technology/technology-applications/saw",
+        "title": "Murata SAW structure and manufacturing",
+        "supports": "SAW piezoelectric substrates carry lithographic interdigital electrodes, are diced and bonded to package substrates.",
+        "limits": "Does not establish our crystal cut, metal stack, cavity sealing recipe or demanded filter bands.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://corporate.murata.com/en-global/technology/techmag/metamorphosis20/productsmarket/ihp-saw.",
+    "title": "Murata SAW and BAW structures",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-murata-baw",
+        "url": "https://corporate.murata.com/en-global/technology/techmag/metamorphosis20/productsmarket/ihp-saw.",
+        "title": "Murata SAW and BAW structures",
+        "supports": "Conventional BAW uses a piezoelectric layer between electrodes; SAW uses surface interdigital structures.",
+        "limits": "Does not justify mixing BAW layers into the selected SAW route.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.qorvo.com/design-hub/technical-articles/baw-vs-saw-rf-filters",
+    "title": "Qorvo BAW versus SAW",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-qorvo-baw",
+        "url": "https://www.qorvo.com/design-hub/technical-articles/baw-vs-saw-rf-filters",
+        "title": "Qorvo BAW versus SAW",
+        "supports": "BAW layered structures and acoustic reflectors need thickness control; filter technologies differ.",
+        "limits": "Architecture only; no chosen numerical band target or complete AlN deposition recipe.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.winfoundry.com/en-US/About/about_company",
+    "title": "WIN GaAs foundry technology",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-winfoundry-hbt",
+        "url": "https://www.winfoundry.com/en-US/About/about_company",
+        "title": "WIN GaAs foundry technology",
+        "supports": "GaAs HBT device fabrication includes epitaxial growth and device characterization.",
+        "limits": "Foundry service is not an allowed physical input; epitaxy feed chemistry and process remain open.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S0038110199000866",
+    "title": "InGaP HBT technology for RF and microwave instrumentation",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-hbt-paper",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0038110199000866",
+        "title": "InGaP HBT technology for RF and microwave instrumentation",
+        "supports": "The reported HBT process uses MOCVD epitaxy, lithography and reactive etching.",
+        "limits": "Historical instrumentation process is not a phone PA design or a from-nature recipe.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://docs.nordicsemi.com/r/bundle/nwp_033/page/wp/nwp_033/nwp_033_antenna_if_ex.html?contentId=vmEpFeFweTcYS4yybgrJyw",
+    "title": "Nordic antenna interface example",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-nordic-antenna",
+        "url": "https://docs.nordicsemi.com/r/bundle/nwp_033/page/wp/nwp_033/nwp_033_antenna_if_ex.html?contentId=vmEpFeFweTcYS4yybgrJyw",
+        "title": "Nordic antenna interface example",
+        "supports": "Matching placement and ground geometry interact with PCB stackup.",
+        "limits": "Illustrative interface does not set flagship bands, dimensions or matching values.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.skyworksinc.com/-/media/8F2E4659780D4B42824A349CE7CB2D80.pdf",
+    "title": "Skyworks mobile antenna tuning",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-skyworks-tuner",
+        "url": "https://www.skyworksinc.com/-/media/8F2E4659780D4B42824A349CE7CB2D80.pdf",
+        "title": "Skyworks mobile antenna tuning",
+        "supports": "Antenna tuning includes impedance/aperture topology, switches, passive choices and control interface.",
+        "limits": "No delivered tuner or selected component allocation is assumed.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.keysight.com/us/en/learn/hubs/measurement-fundamentals/network-analysis.html",
+    "title": "Keysight network analysis calibration",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-keysight-vna",
+        "url": "https://www.keysight.com/us/en/learn/hubs/measurement-fundamentals/network-analysis.html",
+        "title": "Keysight network analysis calibration",
+        "supports": "VNA error correction uses independently known standards and a defined reference plane including cable/fixture effects.",
+        "limits": "Does not manufacture our first standards or establish demanded frequency/uncertainty.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://softwareservices.flir.com/FFY-U3-04S2/latest/40-Installation/DustProtection.htm",
+    "title": "FLIR optical path dust protection",
+    "title_verified": true,
+    "topic": "camera-rf",
+    "provenance": [
+      "proposals/2026-10-08-discovery/camera-rf/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "cr-flir-window",
+        "url": "https://softwareservices.flir.com/FFY-U3-04S2/latest/40-Installation/DustProtection.htm",
+        "title": "FLIR optical path dust protection",
+        "supports": "Protective windows, filters, retention and dust control affect an image sensor optical path and focus.",
+        "limits": "Industrial example does not prescribe a smartphone package or target cleanliness.",
+        "origin_file": "proposals/2026-10-08-discovery/camera-rf/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.dunand.northwestern.edu/pdf/chastain2011.pdf",
+    "title": "Metallurgical analysis of copper artifacts from Cahokia",
+    "title_verified": true,
+    "topic": "research",
+    "provenance": [
+      "proposals/2026-10-08-discovery/research/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "bootstrap-chastain-2011",
+        "title": "Metallurgical analysis of copper artifacts from Cahokia",
+        "url": "https://www.dunand.northwestern.edu/pdf/chastain2011.pdf",
+        "type": "original research paper",
+        "read_scope": "Abstract; pp. 1728-1732 methods/replication",
+        "supports": [
+          "Repeated working and annealing interpretation",
+          "Modern-tool replication limitations",
+          "Layered experimental bonds failed following annealing"
+        ],
+        "does_not_establish": [
+          "Stone-tool workshop replication",
+          "Local collectible copper stock",
+          "Electrical conductor acceptance",
+          "First-fire handling"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.nps.gov/articles/000/keweenaw-industrial-landscapes.htm",
+    "title": "Keweenaw Industrial Landscapes",
+    "title_verified": true,
+    "topic": "research",
+    "provenance": [
+      "proposals/2026-10-08-discovery/research/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "bootstrap-nps-keweenaw",
+        "title": "Keweenaw Industrial Landscapes",
+        "url": "https://www.nps.gov/articles/000/keweenaw-industrial-landscapes.htm",
+        "type": "institutional archaeology/history synthesis",
+        "read_scope": "Indigenous landscape patterns",
+        "supports": [
+          "Lake Superior native copper historical resource context",
+          "Hammerstone extraction and working/annealing precedent"
+        ],
+        "does_not_establish": [
+          "Arrival-site exposure, quantity or purity",
+          "A complete first extraction inventory",
+          "Counterfactual untouched-Earth logistics"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://home.nps.gov/pisp/learn/historyculture/yucca-products.htm",
+    "title": "Yucca Products, Pipe Spring National Monument",
+    "title_verified": true,
+    "topic": "research",
+    "provenance": [
+      "proposals/2026-10-08-discovery/research/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "bootstrap-nps-yucca",
+        "title": "Yucca Products, Pipe Spring National Monument",
+        "url": "https://home.nps.gov/pisp/learn/historyculture/yucca-products.htm",
+        "type": "institutional artifact interpretation",
+        "read_scope": "Full object description",
+        "supports": [
+          "Yucca leaf fiber separation and twisted cord",
+          "Yucca flower-stalk hand-drill precedent"
+        ],
+        "does_not_establish": [
+          "Lake Superior yucca availability",
+          "Cord strength or heat resistance",
+          "Repeatable ignition recipe for arbitrary species"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://repository.si.edu/bitstreams/ef2832a9-bd44-46d2-92ec-d4e10e8d6f8f/download",
+    "title": "Fire-making apparatus in the U.S. National Museum",
+    "title_verified": true,
+    "topic": "research",
+    "provenance": [
+      "proposals/2026-10-08-discovery/research/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "bootstrap-hough-1888",
+        "title": "Fire-making apparatus in the U.S. National Museum",
+        "url": "https://repository.si.edu/bitstreams/ef2832a9-bd44-46d2-92ec-d4e10e8d6f8f/download",
+        "type": "original museum report with collected apparatus and historical observations",
+        "read_scope": "Printed pp. 531-534 and 548-550",
+        "supports": [
+          "Hand-driven spindle/hearth, notch, dry stock and tinder",
+          "First-fire preconditioning caveat",
+          "Separate bow-drive alternative"
+        ],
+        "does_not_establish": [
+          "Our species/geometry selection",
+          "Source-checked thermal instrument values",
+          "Hot-metal handling fixture"
+        ],
+        "checked": "2026-10-08",
+        "caveat": "Historical terminology and attribution require contextual care; preserve technical scope without adopting antiquated cultural judgments.",
+        "origin_file": "proposals/2026-10-08-discovery/research/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.nps.gov/teachers/classrooms/cultural-contributions.htm",
+    "title": "Cultural Contributions",
+    "title_verified": true,
+    "topic": "research",
+    "provenance": [
+      "proposals/2026-10-08-discovery/research/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "bootstrap-nps-cord-teaching",
+        "title": "Cultural Contributions",
+        "url": "https://www.nps.gov/teachers/classrooms/cultural-contributions.htm",
+        "type": "institutional educational resource",
+        "read_scope": "Cordage background and activity",
+        "supports": [
+          "Regional alternative fiber sources",
+          "Twisted fiber cord concept"
+        ],
+        "does_not_establish": [
+          "Nature-only classroom supplies",
+          "Quantified cord load ratings",
+          "Co-location of alternative plants"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.nps.gov/features/lake/artifacts-pre-history/rope-3327.html",
+    "title": "Yucca Fiber Braided Rope",
+    "title_verified": true,
+    "topic": "research",
+    "provenance": [
+      "proposals/2026-10-08-discovery/research/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "bootstrap-nps-cord-artifact",
+        "title": "Yucca Fiber Braided Rope",
+        "url": "https://www.nps.gov/features/lake/artifacts-pre-history/rope-3327.html",
+        "type": "museum artifact record",
+        "read_scope": "Object catalog entry",
+        "supports": [
+          "Historical physical yucca braided cord specimen"
+        ],
+        "does_not_establish": [
+          "Replicated process recipe",
+          "Strength/age-normalized acceptance",
+          "Our local source"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.nps.gov/teachers/classrooms/pottery-of-the-ancestral-pueblo.htm",
+    "title": "Pottery of the Ancestral Pueblo",
+    "title_verified": true,
+    "topic": "research",
+    "provenance": [
+      "proposals/2026-10-08-discovery/research/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "bootstrap-nps-pottery",
+        "title": "Pottery of the Ancestral Pueblo",
+        "url": "https://www.nps.gov/teachers/classrooms/pottery-of-the-ancestral-pueblo.htm",
+        "type": "institutional educational/artifact synthesis",
+        "read_scope": "Lesson hook, coiling/scraping passage and vocabulary",
+        "supports": [
+          "Hand coiling and scraping",
+          "Possible wood/gourd scrapers, polishing stone",
+          "Outdoor firing and clay/temper distinctions"
+        ],
+        "does_not_establish": [
+          "Local clay formula",
+          "Quantified firing schedule",
+          "Refractoriness or liquid-chemistry acceptance"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.nps.gov/azru/planyourvisit/upload/Ceramics_Site_Bulletin.pdf",
+    "title": "Ceramics site bulletin (linked)",
+    "title_verified": true,
+    "topic": "research",
+    "provenance": [
+      "proposals/2026-10-08-discovery/research/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "bootstrap-nps-pottery-bulletin-unread",
+        "title": "Ceramics site bulletin (linked)",
+        "url": "https://www.nps.gov/azru/planyourvisit/upload/Ceramics_Site_Bulletin.pdf",
+        "type": "institutional bulletin",
+        "read_scope": "Inaccessible in web retrieval",
+        "supports": [],
+        "does_not_establish": [
+          "Any additional technical claim in this batch"
+        ],
+        "checked": "2026-10-08",
+        "retrieval_status": "failed",
+        "origin_file": "proposals/2026-10-08-discovery/research/sources.json"
+      }
+    ],
+    "status": "Lead/inherited or unread; inspect claim scope"
+  },
+  {
+    "url": "https://www.bosch-sensortec.com/en/about-us/our-company/mems",
+    "title": "What are MEMS sensors?",
+    "title_verified": true,
+    "topic": "research",
+    "provenance": [
+      "proposals/2026-10-08-discovery/research/mems/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "mems-bosch-architecture",
+        "title": "What are MEMS sensors?",
+        "url": "https://www.bosch-sensortec.com/en/about-us/our-company/mems",
+        "type": "manufacturer primary architecture description",
+        "read_scope": "MEMS element, ASIC and package sections",
+        "supports": [
+          "Distinct mechanical MEMS element and evaluation ASIC in package"
+        ],
+        "does_not_establish": [
+          "Our structure dimensions, fabrication stack or inventory",
+          "Any local natural availability",
+          "Handset target acceptance"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/mems/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://ptolemy.berkeley.edu/projects/robotics/~pister/147fa15/Resources/SOIMUMPs.dr.v8.0.pdf",
+    "title": "SOIMUMPs Design Handbook, revision8",
+    "title_verified": true,
+    "topic": "research",
+    "provenance": [
+      "proposals/2026-10-08-discovery/research/mems/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "mems-soimumps-handbook",
+        "title": "SOIMUMPs Design Handbook, revision8",
+        "url": "https://ptolemy.berkeley.edu/projects/robotics/~pister/147fa15/Resources/SOIMUMPs.dr.v8.0.pdf",
+        "type": "original MEMSCAP foundry handbook hosted by university",
+        "read_scope": "Chapter1;§§2.4.2,2.4.5,2.6",
+        "supports": [
+          "Distinct SOI stack with device/oxide/substrate states",
+          "Release oxide removal affects anchors by undercut",
+          "Lateral stiction and design rules",
+          "This general process targets proof-of-concept structures"
+        ],
+        "does_not_establish": [
+          "A complete smartphone accelerometer recipe",
+          "Pure-vapor process universal stiction elimination",
+          "Our wafer stack/etch tools meet foundry rules"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/mems/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  },
+  {
+    "url": "https://www.st.com/resource/en/technical_note/tn0018-surface-mounting-guidelines-for-mems-sensors--in-an-lga-package--stmicroelectronics.pdf",
+    "title": "Handling, mounting and soldering guidelines for MEMS devices, TN0018 revision8",
+    "title_verified": true,
+    "topic": "research",
+    "provenance": [
+      "proposals/2026-10-08-discovery/research/mems/sources.json"
+    ],
+    "claim_scopes": [
+      {
+        "id": "mems-st-tn0018",
+        "title": "Handling, mounting and soldering guidelines for MEMS devices, TN0018 revision8",
+        "url": "https://www.st.com/resource/en/technical_note/tn0018-surface-mounting-guidelines-for-mems-sensors--in-an-lga-package--stmicroelectronics.pdf",
+        "type": "manufacturer primary handling technical note",
+        "read_scope": "§§5-6 thermomechanical stress, placement",
+        "supports": [
+          "Board/package stresses can shift offset,sensitivity,self-test",
+          "Handling damage and installed device conditions matter"
+        ],
+        "does_not_establish": [
+          "That our sensor meets ST handling thresholds",
+          "Complete device calibration procedure",
+          "Handset acceptance specifications"
+        ],
+        "checked": "2026-10-08",
+        "origin_file": "proposals/2026-10-08-discovery/research/mems/sources.json"
+      }
+    ],
+    "status": "Selective claim check; complete recipe and suitability unverified"
+  }
+]

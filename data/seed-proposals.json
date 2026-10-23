@@ -1,0 +1,2887 @@
+{
+  "nodes": [
+    {
+      "id": "natural-resource-survey",
+      "name": "Natural resource survey",
+      "role": "tool",
+      "domain": "bootstrap",
+      "summary": "Locate and record workable minerals, fuels, water and plant fibers; deposit quality and transport remain untested.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "clay-pottery",
+        "balances",
+        "plant-fiber",
+        "fiber-cord"
+      ]
+    },
+    {
+      "id": "stone-hand-tools",
+      "name": "Stone hand tools",
+      "role": "tool",
+      "domain": "bootstrap",
+      "summary": "Stone cutting, grinding and drilling tools plus friction or spark ignition candidates bootstrap initial extraction and heat.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "abrasive-stones",
+        "fiber-cord",
+        "plant-fiber",
+        "timber-structures"
+      ]
+    },
+    {
+      "id": "abrasive-stones",
+      "name": "Abrasive stones",
+      "role": "tool",
+      "domain": "bootstrap",
+      "summary": "Selected stones and powders support rough shaping and early polishing.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "natural-resource-survey",
+        "stone-hand-tools"
+      ]
+    },
+    {
+      "id": "plant-fiber",
+      "name": "Plant fiber",
+      "role": "tool",
+      "domain": "bootstrap",
+      "summary": "Plant fibers support cord, cloth, paper and recordkeeping; mineral and charcoal marks are candidate methods.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "natural-resource-survey",
+        "stone-hand-tools",
+        "charcoal"
+      ]
+    },
+    {
+      "id": "fiber-cord",
+      "name": "Fiber cord",
+      "role": "tool",
+      "domain": "bootstrap",
+      "summary": "Twisted fibers enable bindings, simple drives and handling fixtures.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "plant-fiber",
+        "stone-hand-tools"
+      ]
+    },
+    {
+      "id": "timber-structures",
+      "name": "Timber structures",
+      "role": "tool",
+      "domain": "bootstrap",
+      "summary": "Wood frames, shelters and levers support early equipment.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "stone-hand-tools",
+        "fiber-cord"
+      ]
+    },
+    {
+      "id": "clay-pottery",
+      "name": "Clay pottery",
+      "role": "tool",
+      "domain": "bootstrap",
+      "summary": "Select and prepare clay, then fire vessels, bricks and furnace pieces; fired vessels also contain samples and process liquids.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "kiln",
+        "glass-stock",
+        "natural-resource-survey",
+        "stone-hand-tools",
+        "water-supply"
+      ]
+    },
+    {
+      "id": "charcoal",
+      "name": "Charcoal",
+      "role": "tool",
+      "domain": "bootstrap",
+      "summary": "Carbonized wood is a candidate fuel and reducing agent.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "timber-structures",
+        "clay-pottery",
+        "stone-hand-tools"
+      ]
+    },
+    {
+      "id": "kiln",
+      "name": "Kiln",
+      "role": "tool",
+      "domain": "bootstrap",
+      "summary": "A controlled firing chamber for pottery and early ceramics.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "clay-pottery",
+        "charcoal",
+        "stone-hand-tools",
+        "bellows"
+      ]
+    },
+    {
+      "id": "bellows",
+      "name": "Bellows",
+      "role": "tool",
+      "domain": "bootstrap",
+      "summary": "Manual air delivery raises combustion intensity.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "timber-structures",
+        "fiber-cord",
+        "seals",
+        "clay-pottery"
+      ]
+    },
+    {
+      "id": "water-supply",
+      "name": "Water supply",
+      "role": "tool",
+      "domain": "facilities",
+      "summary": "Collection, settling and conveyance for processing water.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "stone-hand-tools",
+        "clay-pottery",
+        "timber-structures"
+      ]
+    },
+    {
+      "id": "manual-drive",
+      "name": "Manual drive",
+      "role": "tool",
+      "domain": "power",
+      "summary": "Human powered cranks, treadles and flywheels for early workshop motion.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "timber-structures",
+        "fiber-cord",
+        "bearing-stock"
+      ]
+    },
+    {
+      "id": "mechanical-power",
+      "name": "Mechanical power",
+      "role": "tool",
+      "domain": "power",
+      "summary": "Water, wind and steam machinery are alternative site-dependent sources of continuous shaft power; steam adds separate pressure and sealing challenges.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "water-supply",
+        "timber-structures",
+        "iron-stock",
+        "bearing-stock",
+        "fiber-cord",
+        "machine-tools",
+        "seals",
+        "pressure-instruments",
+        "heat-treatment"
+      ]
+    },
+    {
+      "id": "generator",
+      "name": "Generator",
+      "role": "tool",
+      "domain": "power",
+      "summary": "Convert shaft motion to workshop electricity.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "copper-stock",
+        "wire-drawing",
+        "magnet-stock",
+        "iron-stock",
+        "bearing-stock",
+        "machine-tools"
+      ]
+    },
+    {
+      "id": "power-distribution",
+      "name": "Power distribution",
+      "role": "tool",
+      "domain": "power",
+      "summary": "Conductors, insulation and protection distribute factory electricity.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "generator",
+        "copper-wire",
+        "ceramics-stock",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "regulated-power",
+      "name": "Regulated power",
+      "role": "tool",
+      "domain": "power",
+      "summary": "Stable electrical supplies at low, high-current or high-voltage tiers serve instrumentation, electrolysis and semiconductor equipment.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "power-distribution",
+        "electrical-instruments",
+        "discrete-semiconductors",
+        "passive-components",
+        "generator",
+        "cooling-systems",
+        "ceramics-stock"
+      ]
+    },
+    {
+      "id": "heat-treatment",
+      "name": "Heat treatment",
+      "role": "tool",
+      "domain": "metals",
+      "summary": "Controlled heating and cooling, with suitable water or oil quench media, change metal properties.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "kiln",
+        "furnaces",
+        "temperature-instruments",
+        "water-supply",
+        "chemical-workshop"
+      ]
+    },
+    {
+      "id": "furnaces",
+      "name": "Furnaces",
+      "role": "tool",
+      "domain": "metals",
+      "summary": "Higher temperature chambers for melting, reduction and controlled atmospheres.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "refractories",
+        "charcoal",
+        "bellows",
+        "temperature-instruments"
+      ]
+    },
+    {
+      "id": "refractories",
+      "name": "Refractories",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Heat resistant linings and crucibles for hot processing.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "clay-pottery",
+        "mineral-separation",
+        "kiln",
+        "chemical-workshop"
+      ]
+    },
+    {
+      "id": "mining-tools",
+      "name": "Mining tools",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Extraction equipment ranges from stone tools to metal drills and lifting gear.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "stone-hand-tools",
+        "iron-stock",
+        "timber-structures"
+      ]
+    },
+    {
+      "id": "ore-crushing",
+      "name": "Ore crushing",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Crushers and mills reduce ore for separation.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "stone-hand-tools",
+        "manual-drive",
+        "iron-stock",
+        "machine-tools"
+      ]
+    },
+    {
+      "id": "mineral-separation",
+      "name": "Mineral separation",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Washing, gravity, magnetic or chemical separation concentrates minerals.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "ore-crushing",
+        "water-supply",
+        "clay-pottery",
+        "chemical-workshop"
+      ]
+    },
+    {
+      "id": "iron-stock",
+      "name": "Iron stock",
+      "role": "tool",
+      "domain": "metals",
+      "summary": "Iron and steel feed for structures, machines and magnetic cores.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "natural-resource-survey",
+        "mineral-separation",
+        "furnaces",
+        "charcoal",
+        "heat-treatment"
+      ]
+    },
+    {
+      "id": "copper-stock",
+      "name": "Copper stock",
+      "role": "tool",
+      "domain": "metals",
+      "summary": "Copper feed for conductors, coils and circuit metallization.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "natural-resource-survey",
+        "mineral-separation",
+        "furnaces",
+        "chemical-workshop"
+      ]
+    },
+    {
+      "id": "aluminum-stock",
+      "name": "Aluminum stock",
+      "role": "tool",
+      "domain": "metals",
+      "summary": "Aluminum feed for enclosure parts and selected conductors.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "natural-resource-survey",
+        "mineral-separation",
+        "chemical-workshop",
+        "regulated-power",
+        "furnaces"
+      ]
+    },
+    {
+      "id": "alloy-stock",
+      "name": "Alloy stock",
+      "role": "tool",
+      "domain": "metals",
+      "summary": "Prepared alloys for solder, contacts, springs and corrosion resistance.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "mineral-separation",
+        "furnaces",
+        "chemical-workshop",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "rare-earth-stock",
+      "name": "Rare earth stock",
+      "role": "tool",
+      "domain": "metals",
+      "summary": "Separated rare earth compounds or metals for magnet variants.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "natural-resource-survey",
+        "mineral-separation",
+        "chemical-workshop",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "magnet-stock",
+      "name": "Magnet stock",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Ferrite, alloy or rare earth magnetic material; routes are alternatives.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "iron-stock",
+        "rare-earth-stock",
+        "alloy-stock",
+        "furnaces",
+        "regulated-power",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "copper-wire",
+      "name": "Copper wire",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Insulated copper conductor feed for coils and factory wiring.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "copper-stock",
+        "wire-drawing",
+        "polymers",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "wire-drawing",
+      "name": "Wire drawing",
+      "role": "tool",
+      "domain": "machines",
+      "summary": "Draw wire through made dies with controlled reduction and lubrication.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "machine-tools",
+        "hard-tool-materials",
+        "copper-stock",
+        "chemical-workshop"
+      ]
+    },
+    {
+      "id": "bearing-stock",
+      "name": "Bearing stock",
+      "role": "tool",
+      "domain": "machines",
+      "summary": "Plain or rolling bearing components for workshop motion.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "timber-structures",
+        "alloy-stock",
+        "machine-tools",
+        "chemical-workshop",
+        "dimensional-metrology"
+      ]
+    },
+    {
+      "id": "seals",
+      "name": "Seals",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Gaskets and seals for bellows, fluids, vacuum and machinery.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "plant-fiber",
+        "polymers",
+        "machine-tools"
+      ]
+    },
+    {
+      "id": "workshop-surfaces",
+      "name": "Workshop surfaces",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Flat stable benches, reference surfaces and vibration control support layout, measurement and fine processing.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "stone-hand-tools",
+        "abrasive-stones",
+        "dimensional-metrology",
+        "machine-tools",
+        "timber-structures",
+        "iron-stock"
+      ]
+    },
+    {
+      "id": "dimensional-metrology",
+      "name": "Dimensional metrology",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Rules, gauges and comparators measure length, shape and alignment.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "workshop-surfaces",
+        "plant-fiber",
+        "calibration-standards",
+        "machine-tools"
+      ]
+    },
+    {
+      "id": "calibration-standards",
+      "name": "Calibration standards",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Traceable internal standards for length, mass, time, temperature and electricity.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "dimensional-metrology",
+        "balances",
+        "clocks",
+        "temperature-instruments",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "balances",
+      "name": "Balances",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Measure mass for chemistry, alloying and resource accounting.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "timber-structures",
+        "fiber-cord",
+        "machine-tools",
+        "calibration-standards"
+      ]
+    },
+    {
+      "id": "clocks",
+      "name": "Clocks",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Time references support processing, electronics and frequency checks.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "machine-tools",
+        "crystal-growth",
+        "electrical-instruments",
+        "calibration-standards"
+      ]
+    },
+    {
+      "id": "temperature-instruments",
+      "name": "Temperature instruments",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Observe and control heat from firing through semiconductor processing.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "glass-stock",
+        "alloy-stock",
+        "electrical-instruments",
+        "calibration-standards"
+      ]
+    },
+    {
+      "id": "pressure-instruments",
+      "name": "Pressure instruments",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Measure pressure and vacuum in machines and process equipment.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "glass-stock",
+        "machine-tools",
+        "seals",
+        "calibration-standards"
+      ]
+    },
+    {
+      "id": "electrical-instruments",
+      "name": "Electrical instruments",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Measure current, voltage, resistance and selected signal properties.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "copper-wire",
+        "magnet-stock",
+        "passive-components",
+        "machine-tools",
+        "calibration-standards"
+      ]
+    },
+    {
+      "id": "optical-metrology",
+      "name": "Optical metrology",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Optical inspection and alignment for machines, lenses and lithography.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "glass-stock",
+        "lens-polishing",
+        "light-sources",
+        "dimensional-metrology"
+      ]
+    },
+    {
+      "id": "analytical-instruments",
+      "name": "Analytical instruments",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Chemical, purity, moisture and particle measurements support clean fabrication; instrument capability and bootstrap routes remain unresolved.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "chemical-workshop",
+        "optical-metrology",
+        "electrical-instruments",
+        "vacuum-systems",
+        "bootstrap-computer",
+        "light-sources",
+        "calibration-standards"
+      ]
+    },
+    {
+      "id": "machine-tools",
+      "name": "Machine tools",
+      "role": "tool",
+      "domain": "machines",
+      "summary": "Lathes, mills, drills, gears and screws produce workshop motion and accurate parts.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "iron-stock",
+        "bearing-stock",
+        "manual-drive",
+        "workshop-surfaces",
+        "dimensional-metrology",
+        "hard-tool-materials"
+      ]
+    },
+    {
+      "id": "precision-machines",
+      "name": "Precision machines",
+      "role": "tool",
+      "domain": "machines",
+      "summary": "Refined machining, drilling and positioning equipment supports optics, molds and microdevices; laser variants are candidates.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "machine-tools",
+        "dimensional-metrology",
+        "optical-metrology",
+        "workshop-surfaces",
+        "regulated-power",
+        "hard-tool-materials",
+        "light-sources"
+      ]
+    },
+    {
+      "id": "hard-tool-materials",
+      "name": "Hard tool materials",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Hardened steel, carbide or ceramic tools for cutting and dies.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "alloy-stock",
+        "heat-treatment",
+        "furnaces",
+        "abrasive-stones"
+      ]
+    },
+    {
+      "id": "jigs-fixtures",
+      "name": "Jigs and fixtures",
+      "role": "tool",
+      "domain": "machines",
+      "summary": "Hold and align pieces during fabrication and assembly.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "machine-tools",
+        "workshop-surfaces",
+        "dimensional-metrology"
+      ]
+    },
+    {
+      "id": "cooling-systems",
+      "name": "Cooling systems",
+      "role": "tool",
+      "domain": "facilities",
+      "summary": "Water cooling, heat exchangers or refrigeration remove process heat and stabilize temperatures.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "water-supply",
+        "pumps",
+        "temperature-instruments",
+        "regulated-power",
+        "copper-stock",
+        "alloy-stock",
+        "machine-tools",
+        "joining-equipment"
+      ]
+    },
+    {
+      "id": "pumps",
+      "name": "Pumps",
+      "role": "tool",
+      "domain": "machines",
+      "summary": "Move process liquids, gases and cooling water.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "machine-tools",
+        "seals",
+        "bearing-stock"
+      ]
+    },
+    {
+      "id": "vacuum-systems",
+      "name": "Vacuum systems",
+      "role": "tool",
+      "domain": "facilities",
+      "summary": "Pumps, chambers and seals establish process vacuum.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "pumps",
+        "seals",
+        "pressure-instruments",
+        "machine-tools",
+        "glass-stock"
+      ]
+    },
+    {
+      "id": "gas-handling",
+      "name": "Gas handling",
+      "role": "tool",
+      "domain": "facilities",
+      "summary": "Generate, purify, store and meter controlled process gases.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "chemical-workshop",
+        "pressure-instruments",
+        "pumps",
+        "seals",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "pure-water",
+      "name": "Pure water",
+      "role": "tool",
+      "domain": "chemistry",
+      "summary": "Water purification includes particle and dissolved-ion removal at successively cleaner tiers.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "water-supply",
+        "distillation",
+        "filtration",
+        "analytical-instruments",
+        "chemical-workshop",
+        "polymers",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "distillation",
+      "name": "Distillation",
+      "role": "tool",
+      "domain": "chemistry",
+      "summary": "Separate liquids or produce distilled water with made vessels.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "glass-stock",
+        "clay-pottery",
+        "cooling-systems",
+        "temperature-instruments"
+      ]
+    },
+    {
+      "id": "filtration",
+      "name": "Filtration",
+      "role": "tool",
+      "domain": "chemistry",
+      "summary": "Particle filtration of liquids and air at required cleanliness tiers.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "plant-fiber",
+        "ceramics-stock",
+        "polymers",
+        "pumps"
+      ]
+    },
+    {
+      "id": "chemical-workshop",
+      "name": "Chemical workshop",
+      "role": "tool",
+      "domain": "chemistry",
+      "summary": "A staged laboratory for synthesis, separation, electrorefining, polishing slurries, lubricants and chemical handling; these are separate bounded recipe candidates.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "clay-pottery",
+        "balances",
+        "heat-treatment",
+        "pure-water",
+        "ventilation",
+        "analytical-instruments",
+        "regulated-power",
+        "electrical-instruments",
+        "natural-resource-survey",
+        "abrasive-stones",
+        "filtration"
+      ]
+    },
+    {
+      "id": "acids-bases",
+      "name": "Acids and bases",
+      "role": "tool",
+      "domain": "chemistry",
+      "summary": "Purified reagents for extraction, cleaning, etching and synthesis.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "natural-resource-survey",
+        "chemical-workshop",
+        "distillation",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "solvents",
+      "name": "Solvents",
+      "role": "tool",
+      "domain": "chemistry",
+      "summary": "Purified organic liquids for polymers, cleaning and coatings.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "natural-resource-survey",
+        "chemical-workshop",
+        "distillation",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "ventilation",
+      "name": "Ventilation",
+      "role": "tool",
+      "domain": "facilities",
+      "summary": "Air movement and capture for workshop heat, dust and fumes.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "timber-structures",
+        "pumps",
+        "filtration"
+      ]
+    },
+    {
+      "id": "cleanroom",
+      "name": "Cleanroom",
+      "role": "tool",
+      "domain": "facilities",
+      "summary": "Controlled particle environment for sensitive fabrication.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "ventilation",
+        "filtration",
+        "pure-water",
+        "cooling-systems",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "ceramics-stock",
+      "name": "Ceramics stock",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Ceramic feed and formed parts support insulating, refractory and substrate uses.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "mineral-separation",
+        "chemical-workshop",
+        "kiln",
+        "furnaces",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "glass-stock",
+      "name": "Glass stock",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Glass feed, vessels and optical grades need distinct composition, purity and shaping recipes.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "mineral-separation",
+        "furnaces",
+        "refractories",
+        "temperature-instruments",
+        "chemical-workshop",
+        "analytical-instruments",
+        "optical-metrology"
+      ]
+    },
+    {
+      "id": "lens-polishing",
+      "name": "Lens polishing",
+      "role": "tool",
+      "domain": "optics",
+      "summary": "Grinding, polishing and inspection equipment for optical surfaces.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "precision-machines",
+        "abrasive-stones",
+        "optical-metrology",
+        "jigs-fixtures"
+      ]
+    },
+    {
+      "id": "light-sources",
+      "name": "Light sources",
+      "role": "tool",
+      "domain": "optics",
+      "summary": "Flames, discharge lamps, LEDs or lasers support tiered optical work.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "glass-stock",
+        "regulated-power",
+        "gas-handling",
+        "discrete-semiconductors"
+      ]
+    },
+    {
+      "id": "polymers",
+      "name": "Polymers",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Prepared plastics, elastomers and resins for many device and factory roles.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "natural-resource-survey",
+        "chemical-workshop",
+        "solvents",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "adhesives",
+      "name": "Adhesives",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Bonding materials for handset assembly and tooling.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "polymers",
+        "chemical-workshop",
+        "surface-cleaning"
+      ]
+    },
+    {
+      "id": "surface-cleaning",
+      "name": "Surface cleaning",
+      "role": "tool",
+      "domain": "chemistry",
+      "summary": "Remove contamination before bonding, coating or fabrication.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "pure-water",
+        "solvents",
+        "acids-bases",
+        "filtration",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "coating-equipment",
+      "name": "Coating equipment",
+      "role": "tool",
+      "domain": "machines",
+      "summary": "Apply films by wet coating, printing or vacuum deposition.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "precision-machines",
+        "surface-cleaning",
+        "vacuum-systems",
+        "gas-handling"
+      ]
+    },
+    {
+      "id": "molding-equipment",
+      "name": "Molding equipment",
+      "role": "tool",
+      "domain": "machines",
+      "summary": "Form polymer, glass or metal parts with prepared molds.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "precision-machines",
+        "heat-treatment",
+        "jigs-fixtures"
+      ]
+    },
+    {
+      "id": "joining-equipment",
+      "name": "Joining equipment",
+      "role": "tool",
+      "domain": "machines",
+      "summary": "Soldering, brazing, welding and bonding tools at needed capability tiers.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "alloy-stock",
+        "heat-treatment",
+        "regulated-power",
+        "jigs-fixtures"
+      ]
+    },
+    {
+      "id": "passive-components",
+      "name": "Passive components",
+      "role": "tool",
+      "domain": "electronics",
+      "summary": "Resistors, capacitors and inductors for instrumentation and bootstrap electronics.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "copper-wire",
+        "ceramics-stock",
+        "alloy-stock",
+        "polymers",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "discrete-semiconductors",
+      "name": "Discrete semiconductors",
+      "role": "tool",
+      "domain": "electronics",
+      "summary": "Diodes and transistors for early electronic control and instruments.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "silicon-feed",
+        "crystal-growth",
+        "wafer-preparation",
+        "doping",
+        "diffusion-furnace",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "bootstrap-computer",
+      "name": "Bootstrap computer",
+      "role": "tool",
+      "domain": "software",
+      "summary": "First computing platform assembled from locally made components, with core/discrete/early IC memory and punched/magnetic/electronic storage as alternatives.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "discrete-semiconductors",
+        "passive-components",
+        "boot-tools",
+        "regulated-power",
+        "magnet-stock",
+        "copper-wire",
+        "integrated-circuit-fabrication",
+        "plant-fiber",
+        "machine-tools"
+      ]
+    },
+    {
+      "id": "boot-tools",
+      "name": "Boot tools",
+      "role": "tool",
+      "domain": "software",
+      "summary": "Hand encoding, assemblers and compilers bootstrap executable programs.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "plant-fiber",
+        "bootstrap-computer"
+      ]
+    },
+    {
+      "id": "process-control",
+      "name": "Process control",
+      "role": "tool",
+      "domain": "software",
+      "summary": "Sensors, actuators and control software coordinate factory processes.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "bootstrap-computer",
+        "electrical-instruments",
+        "temperature-instruments",
+        "pressure-instruments",
+        "motion-control"
+      ]
+    },
+    {
+      "id": "motion-control",
+      "name": "Motion control",
+      "role": "tool",
+      "domain": "machines",
+      "summary": "Motors and position control for precision machines and patterning.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "copper-wire",
+        "magnet-stock",
+        "machine-tools",
+        "electrical-instruments",
+        "process-control"
+      ]
+    },
+    {
+      "id": "design-tools",
+      "name": "Design tools",
+      "role": "tool",
+      "domain": "software",
+      "summary": "Locally bootstrapped software for circuits, mechanical design and masks.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "bootstrap-computer",
+        "boot-tools",
+        "design-rules"
+      ]
+    },
+    {
+      "id": "design-rules",
+      "name": "Design rules",
+      "role": "tool",
+      "domain": "electronics",
+      "summary": "Measured fabrication constraints and component behavior guide manufacturable designs.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "process-test-structures",
+        "electrical-instruments",
+        "dimensional-metrology",
+        "integrated-circuit-fabrication"
+      ]
+    },
+    {
+      "id": "silicon-feed",
+      "name": "Silicon feed",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "High purity silicon feedstock for chips; purification stages remain unresolved.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "natural-resource-survey",
+        "mineral-separation",
+        "furnaces",
+        "chemical-workshop",
+        "gas-handling",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "crystal-growth",
+      "name": "Crystal growth",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "Grow controlled single crystals for wafers and frequency references.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "silicon-feed",
+        "furnaces",
+        "gas-handling",
+        "process-control",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "wafer-preparation",
+      "name": "Wafer preparation",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "Slice, polish and clean substrates for microfabrication.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "crystal-growth",
+        "precision-machines",
+        "lens-polishing",
+        "surface-cleaning",
+        "dimensional-metrology"
+      ]
+    },
+    {
+      "id": "doping",
+      "name": "Doping",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "Controlled dopant introduction by diffusion or ion implantation are alternative recipes with different machinery requirements.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "chemical-workshop",
+        "gas-handling",
+        "diffusion-furnace",
+        "analytical-instruments",
+        "vacuum-systems",
+        "regulated-power",
+        "precision-machines",
+        "process-control"
+      ]
+    },
+    {
+      "id": "diffusion-furnace",
+      "name": "Diffusion furnace",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "Controlled high temperature processing for oxide growth and dopant diffusion.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "furnaces",
+        "gas-handling",
+        "cleanroom",
+        "process-control",
+        "pure-water"
+      ]
+    },
+    {
+      "id": "lithography",
+      "name": "Lithography",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "Pattern device layers; contact, optical and advanced routes require comparison.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "mask-making",
+        "photoresist",
+        "optical-metrology",
+        "light-sources",
+        "precision-machines",
+        "cleanroom",
+        "process-control"
+      ]
+    },
+    {
+      "id": "mask-making",
+      "name": "Mask making",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "Produce patterns for semiconductor or display fabrication.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "design-tools",
+        "precision-machines",
+        "optical-metrology",
+        "glass-stock",
+        "coating-equipment"
+      ]
+    },
+    {
+      "id": "photoresist",
+      "name": "Photoresist",
+      "role": "tool",
+      "domain": "chemistry",
+      "summary": "Photosensitive patterning chemicals with controlled purity and response.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "polymers",
+        "chemical-workshop",
+        "solvents",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "etching",
+      "name": "Etching",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "Remove selected materials using wet or plasma chemistry.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "acids-bases",
+        "gas-handling",
+        "vacuum-systems",
+        "regulated-power",
+        "surface-cleaning",
+        "process-control"
+      ]
+    },
+    {
+      "id": "thin-film-deposition",
+      "name": "Thin film deposition",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "Grow or deposit functional layers for chips, displays and optics.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "coating-equipment",
+        "gas-handling",
+        "vacuum-systems",
+        "cleanroom",
+        "process-control",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "planarization",
+      "name": "Planarization",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "Flatten multilayer surfaces with controlled polishing and inspection.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "precision-machines",
+        "chemical-workshop",
+        "dimensional-metrology",
+        "cleanroom"
+      ]
+    },
+    {
+      "id": "integrated-circuit-fabrication",
+      "name": "Integrated circuit fabrication",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "A bounded family of wafer process recipes; node and feasible scale are open.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "wafer-preparation",
+        "doping",
+        "diffusion-furnace",
+        "lithography",
+        "etching",
+        "thin-film-deposition",
+        "planarization",
+        "cleanroom",
+        "process-control",
+        "design-rules"
+      ]
+    },
+    {
+      "id": "process-test-structures",
+      "name": "Process test structures",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Test patterns establish electrical behavior, defects and process capability.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "integrated-circuit-fabrication",
+        "design-tools",
+        "electrical-instruments",
+        "optical-metrology"
+      ]
+    },
+    {
+      "id": "chip-packaging",
+      "name": "Chip packaging",
+      "role": "tool",
+      "domain": "electronics",
+      "summary": "Dice dies, attach contacts and encapsulate working chips.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "precision-machines",
+        "joining-equipment",
+        "polymers",
+        "copper-stock",
+        "cleanroom",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "chip-test",
+      "name": "Chip test",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Probe and validate dies or packaged chips at usable speed and function.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "process-test-structures",
+        "electrical-instruments",
+        "bootstrap-computer",
+        "regulated-power",
+        "test-software"
+      ]
+    },
+    {
+      "id": "test-software",
+      "name": "Test software",
+      "role": "tool",
+      "domain": "software",
+      "summary": "Programs and fixtures for factory and handset verification.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "boot-tools",
+        "bootstrap-computer",
+        "design-tools",
+        "firmware-build-tools"
+      ]
+    },
+    {
+      "id": "pcb-fabrication",
+      "name": "PCB fabrication",
+      "role": "tool",
+      "domain": "electronics",
+      "summary": "Make patterned multilayer boards and interconnects.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "copper-stock",
+        "polymers",
+        "glass-stock",
+        "lithography",
+        "etching",
+        "plating",
+        "precision-machines",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "plating",
+      "name": "Plating",
+      "role": "tool",
+      "domain": "chemistry",
+      "summary": "Deposit metal layers for contacts, vias and surface finishes.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "chemical-workshop",
+        "alloy-stock",
+        "regulated-power",
+        "surface-cleaning",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "assembly-equipment",
+      "name": "Assembly equipment",
+      "role": "tool",
+      "domain": "machines",
+      "summary": "Place, join and inspect handset parts and circuit assemblies.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "jigs-fixtures",
+        "joining-equipment",
+        "precision-machines",
+        "optical-metrology",
+        "process-control"
+      ]
+    },
+    {
+      "id": "battery-materials",
+      "name": "Battery materials",
+      "role": "tool",
+      "domain": "battery",
+      "summary": "Electrode, electrolyte, separator and current collector feedstocks.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "mineral-separation",
+        "chemical-workshop",
+        "polymers",
+        "copper-stock",
+        "aluminum-stock",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "battery-production",
+      "name": "Battery production",
+      "role": "tool",
+      "domain": "battery",
+      "summary": "Coat, dry, assemble, fill and form rechargeable cells; stationary energy storage can be an earlier power-platform candidate.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "battery-materials",
+        "coating-equipment",
+        "dryroom",
+        "assembly-equipment",
+        "electrical-instruments",
+        "regulated-power",
+        "chemical-workshop"
+      ]
+    },
+    {
+      "id": "dryroom",
+      "name": "Dry room",
+      "role": "tool",
+      "domain": "facilities",
+      "summary": "Low moisture environment for battery and sensitive chemical operations.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "ventilation",
+        "filtration",
+        "gas-handling",
+        "cooling-systems",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "display-production",
+      "name": "Display production",
+      "role": "tool",
+      "domain": "display",
+      "summary": "Fabricate and encapsulate display panels; OLED and LCD are candidate variants.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "glass-stock",
+        "integrated-circuit-fabrication",
+        "thin-film-deposition",
+        "display-chemicals",
+        "cleanroom",
+        "assembly-equipment"
+      ]
+    },
+    {
+      "id": "display-chemicals",
+      "name": "Display chemicals",
+      "role": "tool",
+      "domain": "chemistry",
+      "summary": "Liquid crystal, emissive, conductive and barrier materials by panel route.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "chemical-workshop",
+        "polymers",
+        "alloy-stock",
+        "analytical-instruments",
+        "gas-handling"
+      ]
+    },
+    {
+      "id": "touch-production",
+      "name": "Touch production",
+      "role": "tool",
+      "domain": "display",
+      "summary": "Pattern transparent conductors and assemble capacitive touch layers.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "glass-stock",
+        "transparent-conductors",
+        "lithography",
+        "etching",
+        "adhesives",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "transparent-conductors",
+      "name": "Transparent conductors",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Transparent conducting films or alternative fine metal meshes.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "mineral-separation",
+        "chemical-workshop",
+        "thin-film-deposition",
+        "copper-stock",
+        "optical-metrology"
+      ]
+    },
+    {
+      "id": "optics-production",
+      "name": "Optics production",
+      "role": "tool",
+      "domain": "optics",
+      "summary": "Make lenses, coatings and alignment hardware for cameras.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "glass-stock",
+        "polymers",
+        "molding-equipment",
+        "lens-polishing",
+        "coating-equipment",
+        "optical-metrology"
+      ]
+    },
+    {
+      "id": "magnetic-parts-production",
+      "name": "Magnetic parts production",
+      "role": "tool",
+      "domain": "audio",
+      "summary": "Make magnets, coils and shaped magnetic structures for audio and actuators.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "magnet-stock",
+        "copper-wire",
+        "precision-machines",
+        "heat-treatment",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "handset",
+      "name": "Standalone handset",
+      "role": "part",
+      "domain": "system",
+      "summary": "One fully working modern high-end handset that charges from standard external power equipment and connects to today's real-world networks; exact reference target remains open.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "enclosure",
+        "cover-glass",
+        "display-panel",
+        "touch-panel",
+        "battery-cell",
+        "main-board",
+        "processor",
+        "memory",
+        "storage",
+        "power-management",
+        "audio-system",
+        "camera-system",
+        "sensor-system",
+        "rf-system",
+        "connectors",
+        "thermal-system",
+        "fasteners",
+        "firmware",
+        "offline-apps",
+        "haptic-actuator",
+        "operating-system",
+        "network-compatibility-test"
+      ]
+    },
+    {
+      "id": "enclosure",
+      "name": "Enclosure",
+      "role": "part",
+      "domain": "mechanical",
+      "summary": "Structural frame and rear housing for the selected handset.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "aluminum-stock",
+        "alloy-stock",
+        "polymers",
+        "molding-equipment",
+        "precision-machines",
+        "adhesives"
+      ]
+    },
+    {
+      "id": "cover-glass",
+      "name": "Cover glass",
+      "role": "part",
+      "domain": "mechanical",
+      "summary": "Durable transparent external display cover.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "glass-stock",
+        "chemical-workshop",
+        "heat-treatment",
+        "lens-polishing",
+        "optical-metrology"
+      ]
+    },
+    {
+      "id": "display-panel",
+      "name": "Display panel",
+      "role": "part",
+      "domain": "display",
+      "summary": "Modern color screen including addressing electronics; OLED and LCD routes, resolution and driver architecture remain open.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "display-production",
+        "flexible-interconnect",
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "chip-test",
+        "design-tools"
+      ]
+    },
+    {
+      "id": "touch-panel",
+      "name": "Touch panel",
+      "role": "part",
+      "domain": "display",
+      "summary": "Capacitive touch layers and their controller electronics, with architecture and fabrication routes unresolved.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "touch-production",
+        "flexible-interconnect",
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "chip-test",
+        "design-tools",
+        "firmware"
+      ]
+    },
+    {
+      "id": "battery-cell",
+      "name": "Battery cell",
+      "role": "part",
+      "domain": "battery",
+      "summary": "Rechargeable handset cell with chosen chemistry and capacity unresolved.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "battery-production",
+        "electrical-instruments",
+        "battery-validation"
+      ]
+    },
+    {
+      "id": "battery-validation",
+      "name": "Battery validation",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Characterize capacity, cycling, protection and abuse response in made containment fixtures.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "electrical-instruments",
+        "temperature-instruments",
+        "regulated-power",
+        "test-software",
+        "iron-stock",
+        "refractories",
+        "ventilation",
+        "pressure-instruments"
+      ]
+    },
+    {
+      "id": "main-board",
+      "name": "Main board",
+      "role": "part",
+      "domain": "electronics",
+      "summary": "Populated handset circuit board supporting chosen components.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "pcb-fabrication",
+        "assembly-equipment",
+        "board-passives",
+        "flexible-interconnect",
+        "chip-test"
+      ]
+    },
+    {
+      "id": "board-passives",
+      "name": "Board passives",
+      "role": "part",
+      "domain": "electronics",
+      "summary": "Resistors, capacitors, inductors and selected filters installed in the phone.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "passive-components",
+        "electrical-instruments",
+        "assembly-equipment"
+      ]
+    },
+    {
+      "id": "processor",
+      "name": "Processor",
+      "role": "part",
+      "domain": "electronics",
+      "summary": "CPU, GPU and other compute blocks at a defined but unchosen high-end capability.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "design-tools",
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "chip-test",
+        "firmware-build-tools"
+      ]
+    },
+    {
+      "id": "memory",
+      "name": "Memory",
+      "role": "part",
+      "domain": "electronics",
+      "summary": "Working memory with capacity and technology to be specified.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "design-tools",
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "chip-test"
+      ]
+    },
+    {
+      "id": "storage",
+      "name": "Storage",
+      "role": "part",
+      "domain": "electronics",
+      "summary": "Nonvolatile handset storage with capacity and endurance to be specified.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "design-tools",
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "chip-test"
+      ]
+    },
+    {
+      "id": "power-management",
+      "name": "Power management",
+      "role": "part",
+      "domain": "electronics",
+      "summary": "Voltage conversion, charging and protection circuitry with a compatible standard power input.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "chip-test",
+        "board-passives",
+        "firmware",
+        "charging-control"
+      ]
+    },
+    {
+      "id": "audio-system",
+      "name": "Audio system",
+      "role": "part",
+      "domain": "audio",
+      "summary": "Speaker, microphone, audio electronics and acoustic paths.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "speaker",
+        "microphone",
+        "audio-codec",
+        "enclosure"
+      ]
+    },
+    {
+      "id": "speaker",
+      "name": "Speaker",
+      "role": "part",
+      "domain": "audio",
+      "summary": "Miniature sound output transducer and chamber.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "magnetic-parts-production",
+        "polymers",
+        "assembly-equipment",
+        "electrical-instruments",
+        "acoustic-test"
+      ]
+    },
+    {
+      "id": "microphone",
+      "name": "Microphone",
+      "role": "part",
+      "domain": "audio",
+      "summary": "Miniature sound input transducer, including MEMS as a candidate route.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "mems-fabrication",
+        "chip-packaging",
+        "acoustic-test"
+      ]
+    },
+    {
+      "id": "audio-codec",
+      "name": "Audio codec",
+      "role": "part",
+      "domain": "electronics",
+      "summary": "Audio conversion, amplification and control circuitry.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "chip-test",
+        "board-passives"
+      ]
+    },
+    {
+      "id": "acoustic-test",
+      "name": "Acoustic test",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Measure sound output, input and distortion with calibration fixtures.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "electrical-instruments",
+        "microphone",
+        "speaker",
+        "calibration-standards",
+        "test-software"
+      ]
+    },
+    {
+      "id": "camera-system",
+      "name": "Camera system",
+      "role": "part",
+      "domain": "camera",
+      "summary": "Selected camera modules and offline image pipeline.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "image-sensor",
+        "camera-optics",
+        "camera-actuator",
+        "camera-calibration",
+        "firmware"
+      ]
+    },
+    {
+      "id": "image-sensor",
+      "name": "Image sensor",
+      "role": "part",
+      "domain": "camera",
+      "summary": "Image sensing chip with pixel count and technology unresolved.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "chip-test",
+        "optical-metrology"
+      ]
+    },
+    {
+      "id": "camera-optics",
+      "name": "Camera optics",
+      "role": "part",
+      "domain": "camera",
+      "summary": "Lens assembly, filters and housing for a camera module.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "optics-production",
+        "precision-machines",
+        "assembly-equipment"
+      ]
+    },
+    {
+      "id": "camera-actuator",
+      "name": "Camera actuator",
+      "role": "part",
+      "domain": "camera",
+      "summary": "Autofocus or stabilization mechanism if required by the target.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "magnetic-parts-production",
+        "precision-machines",
+        "motion-control",
+        "camera-calibration"
+      ]
+    },
+    {
+      "id": "camera-calibration",
+      "name": "Camera calibration",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Measure lens, sensor, focus and image pipeline performance.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "optical-metrology",
+        "light-sources",
+        "test-software",
+        "bootstrap-computer"
+      ]
+    },
+    {
+      "id": "sensor-system",
+      "name": "Sensor system",
+      "role": "part",
+      "domain": "sensors",
+      "summary": "Motion, light, proximity and other selected local sensors.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "mems-sensors",
+        "light-sensor",
+        "magnetometer",
+        "sensor-calibration"
+      ]
+    },
+    {
+      "id": "mems-sensors",
+      "name": "MEMS sensors",
+      "role": "part",
+      "domain": "sensors",
+      "summary": "Acceleration, angular rate or pressure devices required by the target.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "mems-fabrication",
+        "chip-packaging",
+        "chip-test",
+        "sensor-calibration"
+      ]
+    },
+    {
+      "id": "mems-fabrication",
+      "name": "MEMS fabrication",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "Micromechanical fabrication and packaging recipes for selected sensors.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "wafer-preparation",
+        "lithography",
+        "etching",
+        "thin-film-deposition",
+        "precision-machines",
+        "cleanroom"
+      ]
+    },
+    {
+      "id": "light-sensor",
+      "name": "Light sensor",
+      "role": "part",
+      "domain": "sensors",
+      "summary": "Photodetection for ambient light and optional proximity functions.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "chip-test",
+        "light-sources"
+      ]
+    },
+    {
+      "id": "magnetometer",
+      "name": "Magnetometer",
+      "role": "part",
+      "domain": "sensors",
+      "summary": "Magnetic field sensor for local orientation functions.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "chip-test",
+        "magnet-stock",
+        "sensor-calibration"
+      ]
+    },
+    {
+      "id": "sensor-calibration",
+      "name": "Sensor calibration",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Known motion, field, light or pressure references calibrate selected sensors.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "dimensional-metrology",
+        "clocks",
+        "pressure-instruments",
+        "light-sources",
+        "electrical-instruments",
+        "test-software"
+      ]
+    },
+    {
+      "id": "rf-system",
+      "name": "RF system",
+      "role": "part",
+      "domain": "radio",
+      "summary": "Required radio subsystem for compatibility with selected current network technologies, bands and operator interfaces.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "modem-baseband",
+        "rf-front-end",
+        "antennas",
+        "rf-test",
+        "firmware",
+        "sim-esim",
+        "antenna-tuning",
+        "protocol-stack"
+      ]
+    },
+    {
+      "id": "modem-baseband",
+      "name": "Modem and baseband",
+      "role": "part",
+      "domain": "radio",
+      "summary": "Standards-compatible radio protocol and signal processing hardware for connection to today's selected real-world networks.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "design-tools",
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "chip-test",
+        "protocol-stack"
+      ]
+    },
+    {
+      "id": "rf-front-end",
+      "name": "RF front end",
+      "role": "part",
+      "domain": "radio",
+      "summary": "Radio switches, amplifiers, filters and duplexers for selected network bands.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "compound-semiconductors",
+        "passive-components",
+        "chip-packaging",
+        "rf-test",
+        "power-amplifiers",
+        "rf-filters"
+      ]
+    },
+    {
+      "id": "compound-semiconductors",
+      "name": "Compound semiconductors",
+      "role": "tool",
+      "domain": "semiconductors",
+      "summary": "Non-silicon semiconductor materials and processes for RF or optical variants.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "mineral-separation",
+        "chemical-workshop",
+        "crystal-growth",
+        "thin-film-deposition",
+        "lithography",
+        "etching",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "antennas",
+      "name": "Antennas",
+      "role": "part",
+      "domain": "radio",
+      "summary": "Handset antenna elements for chosen bands and connectivity standards; their interaction with the enclosure requires measurement.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "copper-stock",
+        "alloy-stock",
+        "polymers",
+        "precision-machines",
+        "rf-test",
+        "antenna-tuning"
+      ]
+    },
+    {
+      "id": "rf-test",
+      "name": "RF test",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Calibrated RF signal generation, reception and spectrum measurements for handset radio hardware and antenna characterization.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "electrical-instruments",
+        "clocks",
+        "bootstrap-computer",
+        "regulated-power",
+        "calibration-standards"
+      ]
+    },
+    {
+      "id": "connectors",
+      "name": "Connectors",
+      "role": "part",
+      "domain": "mechanical",
+      "summary": "Handset external port, internal contacts and flex connections compatible with selected standard charging and data interfaces.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "alloy-stock",
+        "polymers",
+        "plating",
+        "precision-machines",
+        "assembly-equipment",
+        "usb-controller"
+      ]
+    },
+    {
+      "id": "flexible-interconnect",
+      "name": "Flexible interconnect",
+      "role": "part",
+      "domain": "electronics",
+      "summary": "Flexible circuits and contact assemblies for display and modules.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "pcb-fabrication",
+        "polymers",
+        "plating",
+        "assembly-equipment"
+      ]
+    },
+    {
+      "id": "thermal-system",
+      "name": "Thermal system",
+      "role": "part",
+      "domain": "mechanical",
+      "summary": "Heat spreading and transfer parts for sustained handset operation.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "copper-stock",
+        "aluminum-stock",
+        "carbon-materials",
+        "precision-machines",
+        "adhesives",
+        "thermal-test"
+      ]
+    },
+    {
+      "id": "carbon-materials",
+      "name": "Carbon materials",
+      "role": "tool",
+      "domain": "materials",
+      "summary": "Graphite or other carbon feed for heat spreading, battery and tooling variants.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "natural-resource-survey",
+        "mineral-separation",
+        "furnaces",
+        "chemical-workshop",
+        "analytical-instruments"
+      ]
+    },
+    {
+      "id": "thermal-test",
+      "name": "Thermal test",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Measure device temperatures and heat flow under defined loads.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "temperature-instruments",
+        "regulated-power",
+        "test-software",
+        "cooling-systems"
+      ]
+    },
+    {
+      "id": "fasteners",
+      "name": "Fasteners",
+      "role": "part",
+      "domain": "mechanical",
+      "summary": "Screws, clips, seals and bonding features retaining handset parts.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "alloy-stock",
+        "polymers",
+        "precision-machines",
+        "adhesives",
+        "seals"
+      ]
+    },
+    {
+      "id": "haptic-actuator",
+      "name": "Haptic actuator",
+      "role": "part",
+      "domain": "audio",
+      "summary": "Optional vibration feedback hardware for the selected high-end target.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "magnetic-parts-production",
+        "precision-machines",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "firmware-build-tools",
+      "name": "Firmware build tools",
+      "role": "tool",
+      "domain": "software",
+      "summary": "Compilers, linkers and image-generation tools for the chosen processor.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "boot-tools",
+        "bootstrap-computer",
+        "design-tools"
+      ]
+    },
+    {
+      "id": "firmware",
+      "name": "Firmware",
+      "role": "part",
+      "domain": "software",
+      "summary": "Installed boot, drivers, hardware initialization and control code, including radio and power-interface firmware.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "firmware-build-tools",
+        "processor",
+        "memory",
+        "storage",
+        "test-software",
+        "protocol-stack",
+        "usb-controller",
+        "charging-control"
+      ]
+    },
+    {
+      "id": "operating-system",
+      "name": "Operating system",
+      "role": "part",
+      "domain": "software",
+      "summary": "Local operating environment, scheduling, files, graphics and input services.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "firmware",
+        "firmware-build-tools",
+        "processor",
+        "memory",
+        "storage",
+        "display-panel",
+        "touch-panel"
+      ]
+    },
+    {
+      "id": "offline-apps",
+      "name": "Local apps",
+      "role": "part",
+      "domain": "software",
+      "summary": "Installed applications and local content work offline; network-dependent functions require separately specified compatible services.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "operating-system",
+        "firmware-build-tools",
+        "software-provisioning"
+      ]
+    },
+    {
+      "id": "software-provisioning",
+      "name": "Software provisioning",
+      "role": "tool",
+      "domain": "software",
+      "summary": "Transfer boot images, system software and local content into the phone.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "bootstrap-computer",
+        "firmware-build-tools",
+        "connectors",
+        "test-software"
+      ]
+    },
+    {
+      "id": "handset-validation",
+      "name": "Handset validation",
+      "role": "tool",
+      "domain": "metrology",
+      "summary": "Verify charging, local functions, radio compatibility, performance, integration and selected durability.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "handset",
+        "test-software",
+        "thermal-test",
+        "camera-calibration",
+        "acoustic-test",
+        "sensor-calibration",
+        "battery-validation",
+        "dimensional-metrology",
+        "network-compatibility-test"
+      ]
+    },
+    {
+      "id": "power-amplifiers",
+      "name": "Radio power amplifiers",
+      "role": "part",
+      "domain": "radio",
+      "summary": "RF transmit amplifiers with selected bands, output and efficiency; semiconductor route remains open.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "compound-semiconductors",
+        "chip-packaging",
+        "rf-test",
+        "power-management"
+      ]
+    },
+    {
+      "id": "rf-filters",
+      "name": "Radio filters and duplexers",
+      "role": "part",
+      "domain": "radio",
+      "summary": "Band filters and duplexers, including acoustic-device variants, for selected networks.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "mems-fabrication",
+        "ceramics-stock",
+        "thin-film-deposition",
+        "chip-packaging",
+        "rf-test"
+      ]
+    },
+    {
+      "id": "sim-esim",
+      "name": "SIM and eSIM handling",
+      "role": "part",
+      "domain": "radio",
+      "summary": "Credential interface, secure storage and software for selected SIM or eSIM use; operator credentials are external inputs.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "connectors",
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "firmware",
+        "protocol-stack"
+      ]
+    },
+    {
+      "id": "antenna-tuning",
+      "name": "Antenna tuning",
+      "role": "tool",
+      "domain": "radio",
+      "summary": "Measure and adjust antenna matching, enclosure interactions and band coverage.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "rf-test",
+        "antennas",
+        "enclosure",
+        "board-passives",
+        "test-software"
+      ]
+    },
+    {
+      "id": "usb-controller",
+      "name": "USB interface control",
+      "role": "part",
+      "domain": "electronics",
+      "summary": "Port control and data-interface electronics compatible with the chosen standard external equipment.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "integrated-circuit-fabrication",
+        "chip-packaging",
+        "chip-test",
+        "firmware"
+      ]
+    },
+    {
+      "id": "charging-control",
+      "name": "Charging control",
+      "role": "part",
+      "domain": "electronics",
+      "summary": "Charging negotiation, battery control and protection compatible with chosen standard chargers.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "power-management",
+        "usb-controller",
+        "battery-cell",
+        "board-passives",
+        "firmware",
+        "electrical-instruments"
+      ]
+    },
+    {
+      "id": "network-compatibility-test",
+      "name": "Network compatibility test",
+      "role": "tool",
+      "domain": "radio",
+      "summary": "Standards and interoperability tests for selected live networks; towers, accounts and network services are external boundaries.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "rf-test",
+        "protocol-stack",
+        "modem-baseband",
+        "sim-esim",
+        "handset",
+        "test-software"
+      ]
+    },
+    {
+      "id": "protocol-stack",
+      "name": "Radio protocol software",
+      "role": "part",
+      "domain": "software",
+      "summary": "Implemented compatible cellular and selected short-range radio protocols, identity handling and radio control.",
+      "maturity": "discovered",
+      "origin": "knowledge-seed",
+      "requirements_unknown": true,
+      "terminal": false,
+      "proposed_requires": [
+        "firmware-build-tools",
+        "modem-baseband",
+        "rf-system",
+        "sim-esim",
+        "firmware",
+        "operating-system"
+      ]
+    }
+  ]
+}

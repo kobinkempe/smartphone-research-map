@@ -1,0 +1,866 @@
+[
+  {
+    "id": "inherited-phone",
+    "name": "Working handset assembly",
+    "summary": "Representative smartphone architecture; not a model-specific bill of materials.",
+    "known_parts": [
+      "SoC",
+      "RAM",
+      "Flash storage",
+      "Modem",
+      "RF amplifiers",
+      "RF filters",
+      "Oscillators",
+      "Antennas",
+      "SIM or equivalent identity hardware",
+      "PCB",
+      "Passives",
+      "Audio electronics",
+      "Display stack",
+      "Transistor backplane",
+      "Touch electrodes",
+      "Touch controller",
+      "Cover glass",
+      "Optical bonding layers",
+      "Lithium-ion electrodes",
+      "Separator",
+      "Electrolyte",
+      "Cell package",
+      "Battery protection electronics",
+      "Charging circuits",
+      "Power-management circuits",
+      "Image sensors",
+      "Camera lenses",
+      "Microphone",
+      "Motion sensor",
+      "Light sensor",
+      "Proximity sensor",
+      "Fingerprint sensor if selected",
+      "Speaker",
+      "Frame",
+      "Covers",
+      "Heat spreaders",
+      "Buttons",
+      "Haptic motor",
+      "Ports",
+      "Flexible circuits",
+      "Connectors",
+      "Screws",
+      "Seals",
+      "Adhesives"
+    ],
+    "known_tools": [
+      "Stencil printer",
+      "Component-placement system",
+      "Reflow oven",
+      "Soldering tools",
+      "Optical inspection instruments",
+      "Electrical inspection instruments",
+      "Hidden-joint X-ray inspection equipment",
+      "Assembly fixtures",
+      "Torque screwdrivers",
+      "Tweezers",
+      "Connector tools",
+      "Adhesive dispensers",
+      "Bonding presses",
+      "Electrostatic protection",
+      "Earlier computer or programmer",
+      "Boot and development tools",
+      "Electrical test instruments",
+      "Optical test instruments",
+      "Acoustic test instruments",
+      "RF test instruments",
+      "Calibration standards"
+    ],
+    "steps": [
+      "Populate boards: Print solder paste, place chips and passive components, reflow solder; inspect joints. Check: Continuity, power rails, optical and hidden-joint inspection.",
+      "Fit modules: Install board, display, cameras, speaker, antennas, flex cables and battery in a compatible frame. Check: All modules seated; cables clear of screw and pinch points.",
+      "Close chassis: Fasten covers; bond glass and fit seals where the chosen design requires them. Check: Mechanical fit; leak test if water resistance is a target.",
+      "Load & test: Load boot code, firmware and operating system; calibrate and test the assembled device. Check: Boot, charge, touch, camera, sound, sensors and a radio connection.",
+      "Prepare and load hardware-matched boot code, firmware, drivers and operating system using an earlier computing platform."
+    ],
+    "sources": [
+      "https://support.fairphone.com/hc/en-us/articles/18744611991825-Fairphone-5-Replace-a-spare-part",
+      "https://www.protoexpress.com/kb/pcb-assembly-process-overview/"
+    ],
+    "gaps": [
+      "Cellular calls also require compatible network infrastructure.",
+      "Exact grades, quantities, operating parameters, tolerances and complete making dependencies are not finalized.",
+      "External cell towers, outlets and standard external charger manufacture are excluded by latest user clarification; handset charge interface and network interoperability remain required.",
+      "High-end performance target, model-specific architecture, supported bands/protocols, identity provisioning, software source/toolchain and driver compatibility remain unchosen."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17"
+    ],
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "id": "inherited-speaker",
+    "name": "Speaker",
+    "summary": "Other speakers may use aluminium or copper-clad aluminium; copper is the chosen route.",
+    "known_parts": [
+      "Insulated copper voice coil",
+      "Permanent magnet",
+      "Soft-iron pole and return",
+      "Diaphragm",
+      "Compliant surround",
+      "Frame",
+      "Rear acoustic chamber",
+      "Adhesive",
+      "Flexible leads",
+      "Terminals"
+    ],
+    "known_tools": [
+      "Winding fixture",
+      "Alignment fixture",
+      "Adhesive applicator",
+      "Joining and curing tools",
+      "Meter",
+      "Audio signal source",
+      "Audio amplifier",
+      "Measurement microphone",
+      "Power source",
+      "Dimensional gauge",
+      "Magnetic-field meter"
+    ],
+    "steps": [
+      "Make motor: Assemble permanent magnet and soft-magnetic pole pieces around a coil gap. Check: Field and gap conform to the selected speaker design.",
+      "Attach coil: Bond the wound coil to the diaphragm and its compliant suspension. Check: Assembly remains flexible; coil attachment stays secure.",
+      "Center & seal: Center the moving assembly in the gap; join it to the frame and acoustic enclosure. Check: Free movement without rubbing; intended air paths preserved.",
+      "Connect & test: Terminate leads and sweep an audio signal through the driver. Check: Response, impedance, distortion and rub/buzz within chosen targets."
+    ],
+    "sources": [
+      "https://owolff.com/wp-content/uploads/2024/07/micro-loudspeakers_pt1.pdf",
+      "https://owolff.com/en/application-support/transducer-design/"
+    ],
+    "gaps": [
+      "A voice coil alone is insufficient: magnet, membrane and air paths remain essential.",
+      "Exact grades, quantities, operating parameters, tolerances and complete making dependencies are not finalized."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17",
+      "source-project/smartphone-prototype-lab\\REVISION-2.md",
+      "source-project/smartphone-prototype-lab\\dist\\encyclopedia\\index.html",
+      "source-project/smartphone-prototype-lab\\dist\\scroll\\content.js"
+    ],
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "id": "inherited-coil",
+    "name": "Copper voice coil",
+    "summary": "Exact turn count, diameter and resistance await a selected speaker design.",
+    "known_parts": [
+      "Insulated wire",
+      "Bonding coat / resin",
+      "Terminal contacts"
+    ],
+    "known_tools": [
+      "Winder + mandrel",
+      "Curing & joining",
+      "Dimensional gauge",
+      "Meter",
+      "Insulation test instrument"
+    ],
+    "steps": [
+      "Set form: Prepare a mandrel matching the required coil shape. Check: Shape and winding space match the design.",
+      "Wind: Lay insulated turns with controlled tension and a repeatable turn count. Check: No crossed turns or damaged insulation.",
+      "Bond & release: Activate a bonding overcoat or resin, then release the stable coil from the mandrel. Check: Coil holds shape without excess moving mass.",
+      "Terminate & check: Prepare the wire ends and attach compliant leads or contacts. Check: Continuity, dimensions and absence of turn shorts."
+    ],
+    "sources": [
+      "https://mwswire.com/understanding-magnet-wire/",
+      "https://owolff.com/en/application-support/transducer-design/"
+    ],
+    "gaps": [
+      "Wire resistance and coil mass must match the speaker and amplifier.",
+      "Exact grades, quantities, operating parameters, tolerances and complete making dependencies are not finalized."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17"
+    ],
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "id": "inherited-coated",
+    "name": "Insulated wire",
+    "summary": "Resin chemistry, process settings and acceptance limits are still unexpanded.",
+    "known_parts": [
+      "Fine bare wire",
+      "Insulating resin",
+      "Solvents + lubricant"
+    ],
+    "known_tools": [
+      "Annealing furnace",
+      "Coating & curing line",
+      "Dimensional gauge",
+      "Meter",
+      "Insulation test instrument"
+    ],
+    "steps": [
+      "Clean & soften: Clean the conductor and anneal it before coating. Check: Soft wire with a clean, coating-compatible surface.",
+      "Apply coats: Apply repeated thin layers of insulating varnish. Check: Continuous coverage without excessive coil bulk.",
+      "Cure: Pass coated wire through a controlled curing process; repeat for the required build. Check: Insulation adheres and survives bending.",
+      "Spool & test: Apply winding lubricant, control take-up tension and test the spool. Check: Insulation integrity, flexibility and continuous conductor."
+    ],
+    "sources": [
+      "https://www.lpmagnetwire.com/enameledwire/manufacturing-process-of-magnet-wire.html",
+      "https://mwswire.com/understanding-magnet-wire/"
+    ],
+    "gaps": [
+      "Ordinary paint or a thick sleeve will not substitute at the same scale.",
+      "Exact grades, quantities, operating parameters, tolerances and complete making dependencies are not finalized."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17"
+    ],
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "id": "inherited-bare",
+    "name": "Fine copper wire",
+    "summary": "No wire gauge is fixed yet; present-day manufacturers use carbide and diamond dies.",
+    "known_parts": [
+      "Copper rod",
+      "Drawing lubricant"
+    ],
+    "known_tools": [
+      "Hard, polished dies",
+      "Drawbench + capstans",
+      "Annealing furnace",
+      "Dimensional gauge",
+      "Meter",
+      "Insulation test instrument"
+    ],
+    "steps": [
+      "Prepare feed: Prepare rod and a pointed end that can enter the first die. Check: End can be gripped; feed is free of major defects.",
+      "Draw in stages: Pull through progressively smaller dies using capstans and lubrication. Check: Wire becomes thinner and longer without breaks.",
+      "Restore ductility: Use appropriate annealing where the process needs softness restored. Check: Wire remains drawable and windable.",
+      "Finish & gauge: Finish to the selected diameter; verify uniformity and spool for coating. Check: Continuous fine wire within the chosen design tolerances."
+    ],
+    "sources": [
+      "https://www.elektrisola.com/en-us/Magnet-Wire/Info",
+      "https://archive.copper.org/publications/newsletters/innovations/1997/12/wiremetallurgy.php"
+    ],
+    "gaps": [
+      "A coarse steel drawplate is a starting tool; fine wire requires more precise dies.",
+      "Exact grades, quantities, operating parameters, tolerances and complete making dependencies are not finalized."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17"
+    ],
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "id": "inherited-rod",
+    "name": "Copper rod",
+    "summary": "Small-batch cast/forged stock is a proposed bootstrap substitute for an industrial rod mill.",
+    "known_parts": [
+      "Refined copper",
+      "Fuel + refractory clay"
+    ],
+    "known_tools": [
+      "Melting furnace",
+      "Crucible + mould",
+      "Forging / rolling tools"
+    ],
+    "steps": [
+      "Melt: Melt a controlled batch of refined copper. Check: Usable melt without unwanted inclusions.",
+      "Cast stock: Cast a sound bar or billet in a suitable mould. Check: No serious porosity or cracking.",
+      "Work to rod: Forge or roll into rod; soften as needed between reductions. Check: Straight, consistent feedstock for drawing.",
+      "Inspect & clean: Remove surface scale and reject defective stock. Check: Stock passes subsequent trial drawing."
+    ],
+    "sources": [
+      "https://archive.copper.org/publications/newsletters/innovations/1997/12/wiremetallurgy.php"
+    ],
+    "gaps": [
+      "Casting shape is easier than controlling purity and internal defects.",
+      "Exact grades, quantities, operating parameters, tolerances and complete making dependencies are not finalized."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17"
+    ],
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "id": "inherited-refined",
+    "name": "Refined copper",
+    "summary": "Refining may be bypassed only if the recovered metal passes the actual wiremaking requirements.",
+    "known_parts": [
+      "Recovered copper",
+      "Copper-salt electrolyte",
+      "Clean water",
+      "Starter cathode"
+    ],
+    "known_tools": [
+      "Anode-casting furnace",
+      "Refining cell",
+      "DC electrical source",
+      "Purity / process instruments"
+    ],
+    "steps": [
+      "Prepare anode: Clean and consolidate recovered copper into an anode. Check: Anode suitable for controlled dissolution.",
+      "Build cell: Arrange anode and starter cathode in a copper-salt acidic electrolyte. Check: Stable cell with no electrode short.",
+      "Transfer copper: Apply DC so copper dissolves from the anode and deposits on the cathode. Check: Copper deposit forms without trapping excessive impurities.",
+      "Recover & verify: Recover and clean the deposit; check material quality before remelting. Check: Purity and drawability sufficient for the wire route."
+    ],
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10972274/"
+    ],
+    "gaps": [
+      "DC power and chemical production are additional unfinished branches.",
+      "Exact grades, quantities, operating parameters, tolerances and complete making dependencies are not finalized."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17"
+    ],
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "id": "inherited-native",
+    "name": "Native copper recovery",
+    "summary": "Native copper avoids ore reduction; it does not guarantee wiremaking purity.",
+    "known_parts": [
+      "Natural copper deposit",
+      "Water"
+    ],
+    "known_tools": [
+      "Hammerstones + wedges",
+      "Sorting / carrying tools"
+    ],
+    "steps": [
+      "Locate metal: Find a deposit containing metallic copper rather than merely copper-bearing minerals. Check: Fresh material shows metallic, malleable copper.",
+      "Expose & break: Use stone tools to expose and break copper-bearing rock. Check: Recoverable metal separated from host rock.",
+      "Sort & recover: Hand-sort and mechanically free promising pieces. Check: Concentrated metallic copper feedstock.",
+      "Clean & qualify: Clean recovered pieces and retain material for later assay or refining. Check: Metal supply adequate for the next stage."
+    ],
+    "sources": [
+      "https://www.nps.gov/kewe/learn/historyculture/archeology.htm",
+      "https://www.usgs.gov/publications/age-native-copper-mineralization-keweenaw-peninsula-michigan"
+    ],
+    "gaps": [
+      "This route depends on suitable geography; oxide and sulfide ores need different processes.",
+      "Exact grades, quantities, operating parameters, tolerances and complete making dependencies are not finalized."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17"
+    ],
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "id": "inherited-deposit",
+    "name": "Native copper deposit",
+    "summary": "The example assumes access to suitable deposits; ancient surface exposure is not established here.",
+    "known_parts": [
+      "Natural native copper",
+      "Host rock"
+    ],
+    "known_tools": [
+      "Hammerstone"
+    ],
+    "steps": [],
+    "sources": [
+      "https://www.usgs.gov/publications/age-native-copper-mineralization-keweenaw-peninsula-michigan",
+      "https://www.nps.gov/kewe/learn/historyculture/archeology.htm"
+    ],
+    "gaps": [
+      "Deposit access, exposure and suitability at the chosen location are unverified.",
+      "Exact grades, quantities, operating parameters, tolerances and complete making dependencies are not finalized."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17"
+    ],
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "id": "inherited-magnet",
+    "name": "Permanent magnet",
+    "summary": "Separate magnet-material preparation, forming, consolidation, finishing and magnetization; distinguish hard magnets from soft flux materials.",
+    "known_parts": [
+      "Selected magnetic material",
+      "Magnetic powder or body"
+    ],
+    "known_tools": [
+      "Powder preparation equipment",
+      "Alignment and compaction press",
+      "Furnace",
+      "Finishing grinder",
+      "Magnetizer",
+      "Magnetic-field meter",
+      "Dimensional gauge"
+    ],
+    "steps": [
+      "Choose magnetic composition for field, geometry and operating conditions.",
+      "Prepare and align/compact material using the selected route.",
+      "Consolidate, heat-treat and finish the body as required.",
+      "Magnetize and verify field and dimensions."
+    ],
+    "sources": [
+      "https://www.arnoldmagnetics.com/resources/magnet-manufacturing-process/",
+      "https://www.tdk.com/en/tech-mag/ferrite02/001"
+    ],
+    "gaps": [
+      "Composition-specific feedstocks, powder manufacture, atmosphere, process settings and magnetizer ratings are unspecified.",
+      "Hard ferrite and rare-earth routes are alternatives, not interchangeable confirmed processes."
+    ],
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\MAGNET-RESEARCH.md",
+      "source-project/smartphone-prototype-lab\\dist\\encyclopedia\\article-data.js"
+    ],
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "id": "inherited-iron",
+    "name": "Iron flux parts",
+    "summary": "Fixed soft-magnetic pole and return parts guide flux across a clearance for the moving coil.",
+    "known_parts": [
+      "Soft-iron or suitable low-carbon stock",
+      "Pole piece",
+      "Return yoke"
+    ],
+    "known_tools": [
+      "Metal-forming tool",
+      "Lathe",
+      "Milling machine",
+      "Finishing grinder",
+      "Dimensional gauge"
+    ],
+    "steps": [
+      "Prepare suitable iron stock.",
+      "Shape pole and return surfaces.",
+      "Finish gap faces.",
+      "Check dimensions and clearance."
+    ],
+    "sources": [
+      "https://www.tdk.com/en/tech-mag/ferrite02/001"
+    ],
+    "gaps": [
+      "Ore-to-iron/steel production, magnetic grade, heat treatment, dimensions and finishing tolerances are unresearched."
+    ],
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\REVISION-2.md",
+      "source-project/smartphone-prototype-lab\\dist\\encyclopedia\\article-data.js"
+    ],
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "id": "inherited-winding-fixture",
+    "name": "Winding fixture",
+    "summary": "A reusable removable form and guided wire feed make repeatable insulated windings; it remains outside the finished speaker.",
+    "known_parts": [
+      "Reference body or mandrel",
+      "Base",
+      "Shaft",
+      "Bearings",
+      "Guide",
+      "Tension pad",
+      "Fasteners",
+      "Turn counter"
+    ],
+    "known_tools": [
+      "Milling machine",
+      "Lathe",
+      "Grinder",
+      "Drill",
+      "Fastening tool",
+      "Assembly fixture",
+      "Dimensional gauge"
+    ],
+    "steps": [
+      "Make stable supporting base and reference mandrel.",
+      "Fit shaft/supports, wire guide and tension control.",
+      "Provide a release arrangement.",
+      "Check alignment, rotation, dimensions and release."
+    ],
+    "sources": [
+      "https://mwswire.com/understanding-magnet-wire/"
+    ],
+    "gaps": [
+      "Chosen coil geometry, tension range, accuracy and qualified release/bonding method remain unspecified.",
+      "Precision machines and gauges require separate bootstrap routes."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17",
+      "source-project/smartphone-prototype-lab\\dist\\encyclopedia\\article-data.js",
+      "source-project/smartphone-prototype-lab\\dist\\zoom\\content.js"
+    ],
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "id": "inherited-alignment-fixture",
+    "name": "Alignment fixture",
+    "summary": "Temporary references center moving and fixed speaker parts, then withdraw after joints support the intended position.",
+    "known_parts": [
+      "Reference base",
+      "Guide surfaces",
+      "Removable locator pins",
+      "Supports",
+      "Fasteners"
+    ],
+    "known_tools": [
+      "Metal-forming tool",
+      "Lathe",
+      "Grinder",
+      "Drill",
+      "Assembly fixture",
+      "Dimensional gauge"
+    ],
+    "steps": [
+      "Prepare reference base.",
+      "Shape locators and guide surfaces.",
+      "Fit removable supports and fasteners.",
+      "Check positions, repeatability and clearances."
+    ],
+    "sources": [
+      "https://owolff.com/en/application-support/transducer-design/"
+    ],
+    "gaps": [
+      "Locator materials, geometry, tolerances, release surfaces and calibration are unspecified."
+    ],
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\dist\\encyclopedia\\article-data.js",
+      "source-project/smartphone-prototype-lab\\REVISION-2.md"
+    ],
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "id": "inherited-verification",
+    "name": "Speaker verification tools",
+    "summary": "Five distinct tools separate resistance/continuity, audio generation/drive, supplied energy and acoustic measurement. Each needs its own making and calibration route.",
+    "known_parts": [
+      "Meter sensing circuit",
+      "Reference/protection elements",
+      "Readout",
+      "Probe leads",
+      "Terminals",
+      "Timing circuit",
+      "Control circuit",
+      "Signal output circuit",
+      "Amplifier output circuit",
+      "Heat path",
+      "Microphone diaphragm",
+      "Sensing capsule",
+      "Preamplifier",
+      "Enclosures",
+      "Connectors"
+    ],
+    "known_tools": [
+      "Meter",
+      "Audio signal source",
+      "Audio amplifier",
+      "Measurement microphone",
+      "Power source",
+      "Soldering tool",
+      "Circuit assembly tool",
+      "Assembly fixture",
+      "Electrical reference instrument",
+      "Acoustic reference source",
+      "Quiet acoustic fixture",
+      "Impedance measurement instrument"
+    ],
+    "steps": [
+      "Build and calibrate the individual instruments against appropriate references.",
+      "Check coil continuity and DC resistance.",
+      "Supply controlled audio signal through a powered amplifier.",
+      "Measure acoustic response, impedance/distortion and free movement/rub-buzz against chosen limits."
+    ],
+    "sources": [
+      "https://docs.klippel.de/db-lab/latest/simulation-auralisation/lsim/lsim.html",
+      "https://docs.klippel.de/db-lab/latest/transducer-parameter-identification/lsi3/lsi3.html",
+      "https://owolff.com/wp-content/uploads/2024/07/micro-loudspeakers_pt1.pdf"
+    ],
+    "gaps": [
+      "No instrument circuits, ranges, accuracy budgets, calibrated standards or numerical acceptance limits are supplied.",
+      "Reference production and measurement bootstrap are unresolved; reciprocal validation must not create prerequisite cycles."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17",
+      "source-project/smartphone-prototype-lab\\REVISION-2.md",
+      "source-project/smartphone-prototype-lab\\dist\\encyclopedia\\article-data.js"
+    ],
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "id": "inherited-power",
+    "name": "Generator and power source",
+    "summary": "A generator converts real supplied mechanical energy; capacity, waveform, conditioning and regulation must match the caller.",
+    "known_parts": [
+      "Permanent magnet",
+      "Iron flux path",
+      "Insulated winding",
+      "Rotor",
+      "Shaft",
+      "Bearings",
+      "Support",
+      "Terminals",
+      "Rotating contacts where needed",
+      "Output-conditioning circuit",
+      "Protection elements"
+    ],
+    "known_tools": [
+      "Mechanical drive",
+      "Winding fixture",
+      "Alignment fixture",
+      "Lathe",
+      "Assembly tools",
+      "Soldering tool",
+      "Meter",
+      "Waveform/reference instrument",
+      "Test load"
+    ],
+    "steps": [
+      "Build magnetic and winding/shaft assemblies.",
+      "Apply a real hand, wind or water mechanical input.",
+      "Rectify/regulate/protect output as the load requires.",
+      "Verify voltage/current, waveform, regulation and loaded capacity."
+    ],
+    "sources": [
+      "https://www.eia.gov/energyexplained/electricity/how-electricity-is-generated.php",
+      "https://www.energy.gov/cmei/systems/how-do-wind-turbines-work",
+      "https://openstax.org/books/college-physics/pages/23-5-electric-generators",
+      "https://www.energy.gov/cmei/water/how-hydropower-works"
+    ],
+    "gaps": [
+      "Earlier galvanic cells or coarse-conductor generators are candidate bootstrap routes, not qualified solutions.",
+      "No prime-mover site/design, output rating, regulation circuit or wire/magnet/metrology bootstrap route is confirmed."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17",
+      "source-project/smartphone-prototype-lab\\RESEARCH.md",
+      "source-project/smartphone-prototype-lab\\dist\\scroll-retired\\branch.js",
+      "source-project/smartphone-prototype-lab\\dist\\zoom\\content.js"
+    ],
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "id": "inherited-ore",
+    "name": "Copper ore processing alternatives",
+    "summary": "Accessible Great Orme-inspired oxide-ore extraction is separate from native-metal recovery and industrial sulfide processing.",
+    "known_parts": [
+      "Copper-bearing mineral",
+      "Host rock",
+      "Selected ore",
+      "Ore concentrate",
+      "Impure copper metal/anode",
+      "Cathode starter",
+      "Copper-bearing electrolyte",
+      "Refined copper output"
+    ],
+    "known_tools": [
+      "Hammerstone",
+      "Bone or antler implement",
+      "Sorting surface",
+      "Containers",
+      "Carrying equipment",
+      "Beneficiation/separation equipment",
+      "Smelting furnace",
+      "Converting equipment",
+      "Fire-refining/anode-preparation equipment",
+      "Refining cell",
+      "Controlled DC power source",
+      "Handling/separation/rinsing equipment",
+      "Composition test instruments"
+    ],
+    "steps": [
+      "Identify chemistry and geology beyond color.",
+      "Expose and separate accessible mineral-bearing pieces using suitable early tools.",
+      "Sort ore and rejects; stop extraction at ore.",
+      "Choose sulfide concentration/smelting/converting/fire refining/electrorefining or oxide leaching/solvent extraction/electrowinning as a distinct candidate route.",
+      "Recover and qualify material; manage electrolyte and residues."
+    ],
+    "sources": [
+      "https://archwilio.org.uk/her/chi3/report/page.php?watprn=GAT1694",
+      "https://www.greatormemines.info/wp-content/uploads/2023/03/Teachers-resource-FINAL.pdf",
+      "https://www.copper.org/education/copper-production/?level=1",
+      "https://www.epa.gov/sites/default/files/2020-11/documents/c12s03.pdf",
+      "https://kupfer.de/kupferwerkstoffe/kupfer/produktionsprozesse/raffination/?lang=en"
+    ],
+    "gaps": [
+      "No deposit is selected or surveyed.",
+      "Do not directly connect the oxide-ore extraction example to a sulfide electrorefining chain.",
+      "Feed-specific conversion, reagent manufacture, quantitative conditions, equipment manufacture and assay/waste handling remain incomplete."
+    ],
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\RESEARCH.md",
+      "source-project/smartphone-prototype-lab\\dist\\scroll-retired\\branch.js"
+    ],
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "id": "inherited-lithography",
+    "name": "Lithography and chip fabrication",
+    "summary": "Lithography is one repeated wafer-patterning process; an exposure apparatus and its supporting fab are distinct manufacturing requirements.",
+    "known_parts": [
+      "Silicon wafer",
+      "Photoresist",
+      "Reticle/master pattern",
+      "Source and illumination assembly",
+      "Projection optics",
+      "Wafer positioning stage",
+      "Handling assembly",
+      "Sensors",
+      "Control electronics",
+      "Control software",
+      "Environmental/utility assemblies"
+    ],
+    "known_tools": [
+      "Deposition equipment",
+      "Cleaning equipment",
+      "Resist coating equipment",
+      "Exposure system",
+      "Development equipment",
+      "Etching equipment",
+      "Ion implantation equipment",
+      "Interconnect process equipment",
+      "Reticle writer",
+      "Optical fabrication/inspection tools",
+      "Position/focus/alignment metrology",
+      "Power source",
+      "Packaging tools",
+      "Chip test instruments"
+    ],
+    "steps": [
+      "Choose the target chip capability and supported process level.",
+      "Prepare wafer/resist/mask and controlled processing environment.",
+      "Expose, develop and inspect the pattern.",
+      "Repeat process-specific deposition/patterning/etch/doping/interconnect layers.",
+      "Package and test; build and qualify every enabling machine separately."
+    ],
+    "sources": [
+      "https://www.asml.com/en/technology/lithography-principles",
+      "https://www.asml.com/en/company/stories/2021/semiconductor-manufacturing-process-steps",
+      "https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors",
+      "https://www.asml.com/en/technology/lithography-principles/light-and-lasers",
+      "https://www.asml.com/en/technology/lithography-principles/mechanics-and-mechatronics",
+      "https://www.asml.com/en/technology/lithography-principles/measuring-accuracy",
+      "https://www.zeiss.com/semiconductor-manufacturing-technology/products/lithography-optics.html",
+      "https://www.zeiss.com/semiconductor-manufacturing-technology/smt-magazine/so-does-euv-lithography-work.html"
+    ],
+    "gaps": [
+      "No high-end phone chip process, layout, material purity, resolution/overlay budget or complete fab route is specified.",
+      "DUV lens architecture is not EUV; EUV requires reflective optics and vacuum.",
+      "Teaching exposure cannot be substituted for advanced smartphone fabrication without meeting the actual specification.",
+      "Machine control/computing, optics, masks, clean utilities and calibration bootstrap remain unresolved."
+    ],
+    "provenance": [
+      "source-project/smartphone-prototype-lab\\RESEARCH.md",
+      "source-project/smartphone-prototype-lab\\dist\\scroll-retired\\branch.js",
+      "source-project/smartphone-prototype-lab\\dist\\zoom\\content.js",
+      "source-project/research-staging\\prior-reference\\Smartphone_Logical_Design_Stories.md"
+    ],
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  },
+  {
+    "maturity": "inherited",
+    "inventory_complete": false,
+    "id": "inherited-foundations",
+    "name": "Industrial foundations and process supplies",
+    "summary": "The original marks thermal tooling, chemicals, clean utilities and measurement foundations as unexpanded dependencies.",
+    "known_parts": [
+      "Wood or charcoal fuel",
+      "Refractory clay and minerals",
+      "Furnace lining",
+      "Crucible material",
+      "Mould material",
+      "Copper sulfate",
+      "Sulfuric acid",
+      "Clean water",
+      "Polymer precursor chemicals",
+      "Insulating resin",
+      "Bonding resin",
+      "Solvents",
+      "Drawing lubricant",
+      "Winding lubricant",
+      "Tool steel",
+      "Carbide or diamond die material",
+      "Reference materials"
+    ],
+    "known_tools": [
+      "Charcoal-making equipment",
+      "Ceramic shaping/firing tools",
+      "Bellows or blower",
+      "Fuel furnace",
+      "Temperature instruments",
+      "Crucibles",
+      "Casting moulds",
+      "Tongs",
+      "Hammers",
+      "Anvil",
+      "Rolling tools",
+      "Drawbench",
+      "Capstans",
+      "Water collection/filtration/distillation equipment",
+      "Chemical purification equipment",
+      "Mixing/solution-control equipment",
+      "Solvent recovery equipment",
+      "Analytical assay instruments",
+      "Calibration standards"
+    ],
+    "steps": [
+      "Obtain and qualify the specific natural material or precursor.",
+      "Produce fuels, ceramics, metals, chemicals and compatible containers through chosen routes.",
+      "Build controlled thermal, mechanical and purification capabilities.",
+      "Verify contamination, durability, process compatibility and measured performance before supplying precision work."
+    ],
+    "sources": [
+      "https://archive.copper.org/publications/newsletters/innovations/1997/12/wiremetallurgy.php",
+      "https://mwswire.com/understanding-magnet-wire/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10972274/"
+    ],
+    "gaps": [
+      "These are inventories and acceptance concepts, not confirmed recipes.",
+      "Quantities, geographic resources, chemical pathways, atmosphere control, grades and bootstrap sequence are largely absent.",
+      "All prerequisites need specific acyclic making routes; generic purchased stock is not an untouched-Earth starting point."
+    ],
+    "provenance": [
+      "source-project/research-staging\\prior-reference\\phone-from-scratch.html",
+      "Library:libfile_1431a56d56a881919676d9cf18e3ce17"
+    ],
+    "requirements_status": "Proposed; unlinked pending central dependency review"
+  }
+]

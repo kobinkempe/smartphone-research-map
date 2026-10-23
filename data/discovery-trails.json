@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Cover glass silica discovery trail",
+    "path": [
+      "handset",
+      "cover-glass",
+      "aluminosilicate-sheet",
+      "silica-glass-batch",
+      "collected-silica-stock",
+      "silica-occurrence-candidate"
+    ],
+    "limitations": "Glass composition/purity and occurrence availability remain unknown; all side-tool obligations open."
+  },
+  {
+    "name": "Speaker copper acquisition discovery trail",
+    "path": [
+      "handset",
+      "audio-system",
+      "speaker",
+      "voice-coil",
+      "insulated-wire",
+      "fine-copper-wire",
+      "copper-rod",
+      "refined-copper",
+      "native-copper-stock",
+      "native-copper-deposit",
+      "natural-native-copper"
+    ],
+    "limitations": "Retains precision rod and electrorefining. Does not replace them with a worked native trial blank; neither refinement power nor wire qualification established."
+  },
+  {
+    "name": "Acoustic seal fiber discovery trail",
+    "path": [
+      "handset",
+      "audio-system",
+      "speaker",
+      "rear-acoustic-chamber",
+      "seals",
+      "cloth-stock",
+      "fiber-cord",
+      "plant-fiber",
+      "collected-fiber-stems",
+      "plant-fiber-occurrence-candidate"
+    ],
+    "limitations": "Selected fiber packing has unknown acoustic pressure/leak suitability. First fiber dries on open stone surface; suitable weather unverified."
+  },
+  {
+    "name": "First ceramic clay acquisition discovery trail",
+    "path": [
+      "handset",
+      "camera-system",
+      "containers",
+      "clay-pottery",
+      "prepared-pottery-clay",
+      "raw-clay-stock",
+      "clay-occurrence-candidate"
+    ],
+    "limitations": "Coarse first vessel, not a proven refractory/optical/semiconductor ceramic."
+  },
+  {
+    "name": "Speaker drawing-die tungsten acquisition discovery trail",
+    "path": [
+      "handset",
+      "audio-system",
+      "speaker",
+      "flexible-leads",
+      "fine-copper-wire",
+      "hard-polished-dies",
+      "carbide-or-diamond-die-material",
+      "carbide-green-compact",
+      "carbide-powder-blend",
+      "tungsten-carbide-powder",
+      "tungsten-metal-powder",
+      "tungsten-oxide-feed",
+      "ammonium-paratungstate-feed",
+      "washed-tungstic-acid",
+      "scheelite-concentrate",
+      "collected-scheelite-ore",
+      "scheelite-occurrence-candidate"
+    ],
+    "limitations": "Selected carbide option with explicit ore collection, concentration and material states. Availability, purity, furnace/power, cobalt binder, tool performance and independent acceptance remain open; this is not a closed manufacturing branch."
+  }
+]

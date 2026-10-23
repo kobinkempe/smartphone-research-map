@@ -1,0 +1,21 @@
+{
+  "state": "in-progress",
+  "base_revision": 90,
+  "order_revision": 90,
+  "completed_reports": 3,
+  "expected_reports": 5,
+  "completed": [
+    "touch-panel",
+    "battery-cell",
+    "main-board"
+  ],
+  "items": [
+    "touch-panel",
+    "battery-cell",
+    "main-board",
+    "audio-system",
+    "camera-system"
+  ],
+  "live_registry_modified": false,
+  "closure_claim": false
+}

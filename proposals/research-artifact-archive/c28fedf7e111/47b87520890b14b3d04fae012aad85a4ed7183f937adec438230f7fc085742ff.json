@@ -1,0 +1,68 @@
+{
+  "revision": 84,
+  "target_version": "v1",
+  "scenario_id": "coordinated-discovery-v1",
+  "reports": [
+    {
+      "id": "handset",
+      "route_id": "discovery-handset-v1",
+      "selected_route": "discovery-handset-v1",
+      "route_exact_match_to53": true,
+      "original_sha256": "45526ca5e603a5ac93029851f4a0c22a91fadec6d4585faa2454bb6acb6a76da",
+      "original_manifest_hash_match": true,
+      "amended_sha256": "41cb29ddf5508499156ffb55c9242157afa6c1fd6abd7c76df7b19facc3cbb50",
+      "amended_manifest_hash_match": true,
+      "missing_immediate_ids": [],
+      "immediate_count": 34
+    },
+    {
+      "id": "enclosure",
+      "route_id": "discovery-enclosure-v1",
+      "selected_route": "discovery-enclosure-v1",
+      "route_exact_match_to53": true,
+      "original_sha256": "6d53bc8eca421c72131da795ef0f343988413eeb3c6410144d75ec74ee29a9d9",
+      "original_manifest_hash_match": true,
+      "amended_sha256": "827d48b6864768569403e94ab67814e4e44eda9c1f3de3953f3cc8f37c4da7ab",
+      "amended_manifest_hash_match": true,
+      "missing_immediate_ids": [],
+      "immediate_count": 7
+    },
+    {
+      "id": "covers",
+      "route_id": "discovery-covers-v1",
+      "selected_route": "discovery-covers-v1",
+      "route_exact_match_to53": true,
+      "original_sha256": "5679c71a7a14e1ef72d0a358bdeb99501db13d71c8cf2e6e7454ec34d361f0a1",
+      "original_manifest_hash_match": true,
+      "amended_sha256": "c6d3a2d4c7ad5c2b54e66a5cf105d29d5425c50c8d54a17446cdf6afd4263518",
+      "amended_manifest_hash_match": true,
+      "missing_immediate_ids": [],
+      "immediate_count": 5
+    },
+    {
+      "id": "cover-glass",
+      "route_id": "discovery-cover-glass-v1",
+      "selected_route": "discovery-cover-glass-v1",
+      "route_exact_match_to53": true,
+      "original_sha256": "04919c62bbb4fae3affcf5b9fadf6855ff2dbb5854ebb90403a5210333c6ec8c",
+      "original_manifest_hash_match": true,
+      "amended_sha256": "ebd0eff723b3e600a616b03c2a180247cb9e60fd2b65a884be0faca4abfcfba1",
+      "amended_manifest_hash_match": true,
+      "missing_immediate_ids": [],
+      "immediate_count": 9
+    },
+    {
+      "id": "display-panel",
+      "route_id": "discovery-display-panel-v1",
+      "selected_route": "discovery-display-panel-v1",
+      "route_exact_match_to53": true,
+      "original_sha256": "e555c7a008ab43caf4b5bebe2930fba7a8467b4a857918bdc135a393cb1b2474",
+      "original_manifest_hash_match": true,
+      "amended_sha256": "f4eac67e220fda8033bcffdce199acd8e79ffb654afc7470da958ff5a342acd6",
+      "amended_manifest_hash_match": true,
+      "missing_immediate_ids": [],
+      "immediate_count": 8
+    }
+  ],
+  "glass_matches": []
+}
