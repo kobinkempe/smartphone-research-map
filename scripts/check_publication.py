@@ -110,8 +110,12 @@ def audit():
     research_links=audit_published_artifacts(registry,ROOT,OUT,views)
     # Byte equality carries the full graph/link audit into the hosted edition.
     hosted=ROOT/'out'
-    manifest=json.loads((ROOT/'.openai/hosting.json').read_text(encoding='utf-8'))
-    if manifest['static']['directory']!='out':raise ValueError('Hosting must use the size-checked output')
+    # Public source builds do not require a particular hosting account's config.
+    # If supplied, it must still point at the output checked below.
+    manifest_path=ROOT/'.openai/hosting.json'
+    if manifest_path.exists():
+        manifest=json.loads(manifest_path.read_text(encoding='utf-8'))
+        if manifest['static']['directory']!='out':raise ValueError('Hosting must use the size-checked output')
     expected={p.relative_to(OUT) for p in OUT.rglob('*') if p.is_file() and p.name!='smartphone-research.html'}
     actual={p.relative_to(hosted) for p in hosted.rglob('*') if p.is_file()}
     if actual!=expected|{Path('smartphone-research.zip')}:raise ValueError('Hosted output file set differs from the audited edition')

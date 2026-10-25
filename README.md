@@ -51,10 +51,11 @@ Read [the full workflow](docs/WORKFLOW.md), [graph gate contract](graph-gate-rea
 ```sh
 python -B -m unittest discover -s scripts -p "test_*.py"
 python -B scripts/build_pages.py
+python -B scripts/check_publication.py
 ```
 
-The copied suite passes **79 tests**, including adversarial graph updates, lifecycle/publication checks and Node-driven map geometry/control checks. The source rebuild audits the selected dependency links. These tests establish software properties, not the truth of research flags or manufacturing claims.
+The suite covers adversarial graph updates, lifecycle/publication checks and Node-driven map geometry/control checks. The publication audit checks all generated page links, selected dependency destinations, registered evidence hashes and the compressed standalone reading edition. The `out/` folder is a size-checked hosted edition; no hosting account configuration is needed to build or audit it. These tests establish software properties, not the truth of research flags or manufacturing claims.
 
-## Portfolio and data scope
+## Data and source scope
 
-The repo includes 44 registered evidence/source artifacts, authoring code and prompts. Raw chat logs, unregistered scratch proposals, deployment identifiers, credentials and previous Git history are excluded. The UI consumes local generated data; it does not call a model. Future research execution depends on the chosen agent environment. [Publication review](PUBLICATION_REVIEW.md).
+The repo includes 44 registered evidence/source artifacts, authoring code and prompts. Raw chat logs, unregistered scratch proposals, local deployment state and original working-project Git history are excluded. The UI consumes local generated data; it does not call a model. Future research execution depends on the chosen agent environment. Research sources remain attributed in the registry and reports; inherited source links are marked where they have not been independently verified.

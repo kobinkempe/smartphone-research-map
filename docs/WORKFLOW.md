@@ -51,7 +51,7 @@ The prototype stream compares encyclopedia, animation, scroll, zoom, spatial can
 
 The portfolio registry is revision 138: 1,507 total records, 1,499 physical outputs and eight software-boundary records; 825 candidate routes, 734 selected routes and 11,345 dependency edges. Its generated audit reports 1,469 discovered physical outputs, 16 research drafts, ten inherited pages and four reviewed outputs. It reports **zero natural endpoints and zero closed paths**. These are snapshot counts, not progress estimates or validated manufacturing instructions.
 
-The copied code passes its 79 Python tests, including Node-driven map/control checks, and rebuilds its generated views. The full research and interface combination has no measured learning-outcome study, completeness guarantee or verified physical manufacture. Next work should qualify a small end-to-end branch, evaluate the learning journeys with users, and connect a prototype directly to a versioned registry contract before scaling the encyclopedia.
+The research code includes Python tests and Node-driven map/control checks, and rebuilds its generated views from the registry. The full research and interface combination has no measured learning-outcome study, completeness guarantee or verified physical manufacture. Next work should qualify a small end-to-end branch, evaluate the learning journeys with users, and connect a prototype directly to a versioned registry contract before scaling the encyclopedia.
 
 ## Human and AI contributions
 

@@ -14,6 +14,11 @@ ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'dist'
 DATA=ROOT/'data'
 LOCAL_BUDGET_BYTES=25_000_000_000
+draft_readings={
+    'bootstrap-copper':'research/copper.md','bootstrap-ignition':'research/ignition.md',
+    'bootstrap-cord':'research/cord.md','bootstrap-clay-vessel':'research/clay-vessel.md',
+    'mems-research':'research/mems/report.md',
+    'electrolyte-research':'materials/breadth-pass-03-making-page.md'}
 
 def local_bytes():
     folders=(ROOT, ROOT.parent/'research-staging')
@@ -153,7 +158,7 @@ pages={}
 pages['index']=('<div class="eyebrow">Target v1 · graph revision '+str(registry['revision'])+' · review checkpoint</div><h1>Smartphone Building research</h1>'
     + '<p>Physical hardware for a flagship-equivalent handset from untouched Earth, ready for software installation, charging and real-world networks after import. Software implementation is a black box. This checkpoint recovers earlier research and exposes remaining work; it is not a complete manufacturing plan.</p>'
     + '<div class="stats">'+stat(total,'discovered items')+stat(str(round(100*discovered/total,1))+'%','discovered, unresearched ('+str(discovered)+'/'+str(total)+')')+stat(len(inherited),'inherited research pages')+stat(closed_count,'paths closed to nature')+'</div>'
-    + '<div class="notice">'+internal('docs/research-rules','Read the research contract')+' and '+internal('docs/research-agent-prompt','agent prompt')+' for the scope. Bulk discovery and research were authorized on 8 October 2026. Numerical capability targets remain open. The saved batch includes the recovered chat and reports.</div>'
+    + '<div class="notice">'+internal('docs/research-rules','Read the research contract')+' and '+internal('docs/research-agent-prompt','agent prompt')+' for the scope. Discovery and research began in October 2026. Numerical capability targets remain open. Registered reports preserve the available evidence; raw conversations are not included.</div>'
     + '<h2>Recovered research</h2><p>Inventories and sources are preserved. They have not been rechecked for completeness, tolerances or feasibility.</p>'+node_table(inherited)
     + '<h2>Explore the discovered map</h2><div class="domain-grid">'+''.join('<a data-page="map" href="map.html"><strong>'+esc(d.title())+'</strong><span>'+str(len(items))+' items</span></a>' for d,items in sorted(by_domain.items()))+'</div>'
     + '<h2>Known boundaries</h2><p>Cell towers, household outlets, standard external chargers and carrier services are external interfaces. Software implementation is a black box. Phone charging electronics, radios, antennas, computing and loading hardware, and manufacturing equipment remain in scope. External boundaries never count as natural endpoints.</p>')
@@ -176,7 +181,7 @@ pages['progress']=('<h1>Research progress</h1><p>Snapshot '+esc(datetime.now(tim
     + '<h2>Next research sequence</h2><p>Freeze measurable flagship targets; research natural-resource acquisition and non-electrical coarse tooling; establish reference surfaces and earlier power; then trace copper, wire and speaker quality. Dedicated reviews cover glass, batteries, display, semiconductor tooling, physical control/loading interfaces and real-network compatibility.</p>'
     + '<h2>Shared prerequisites to investigate for reuse</h2><p>Counts show selected routes calling the same record, not available physical stock. Capability and build-order qualification are still required.</p><ul>'+''.join('<li>'+node_link(nid)+' — '+str(amount)+' routes</li>' for nid,amount in shared_requirements.most_common(10) if amount>1)+'</ul>'
     + '<h2>Code gate</h2><p>21 adversarial checks passed for self-loops, multi-node and concurrent cycles, stale revisions, missing targets, false terminals, unreviewed capabilities, unspecified demands and atomic failure. Every generated dependency link is matched against the validated graph and its actual destination.</p>'+internal('docs/graph-gate-readme','Read the gate guarantees and limits')
-    + '<h2>Storage and publishing</h2><p>The user has allocated about 25 GB on this computer. The build checks that local project and recovery files stay within that budget. Text, code and source links remain compact; cloud storage for larger attachments is undecided. The standalone edition remains usable offline; the private hosted edition supplies the same validated reading pages and a compressed standalone download.</p>'+internal('docs/storage-plan','Read the storage options'))
+    + '<h2>Source and downloads</h2><p>The build reports its local storage use and checks a 25 GB project budget. Generated pages and the standalone reading edition use the same validated registry. The hosted output includes a compressed copy of the standalone edition for services with per-file limits. See the <a href="https://github.com/kobinkempe/smartphone-research-map">source repository</a> for build and validation instructions.</p>')
 
 pages['map']='<h1>Discovered map</h1><p>Explore the physical inventory below. Linked routes are cycle-checked discovery or research hypotheses. Their inventories, capability demands and resource availability remain open.</p>'
 pages['map']+=map_panel(ui_graph,internal('map-view','⛶ Expand map'))
@@ -279,7 +284,14 @@ for nid,n in nodes.items():
     if n.get('provenance'):
         body+='<details><summary>Earlier research provenance</summary><ul>'+''.join('<li>'+esc(p)+'</li>' for p in n['provenance'])+'</ul></details>'
     if n.get('bounded_research_pages'):
-        body+='<h2>Bounded research drafts</h2><p>Read the source scope, known inventory and remaining limitations. These drafts do not approve the complete selected route.</p><ul>'+''.join('<li>'+internal(key,'Read '+key.split('/')[-1].replace('-',' '))+'</li>' for key in n['bounded_research_pages'])+'</ul>'
+        body+='<h2>Bounded research drafts</h2><p>Historical draft references do not approve the complete selected route.</p><ul>'
+        for key in n['bounded_research_pages']:
+            name=key.split('/')[-1]
+            source_path=ROOT/'proposals/2026-10-08-discovery'/draft_readings[name] if name in draft_readings else ROOT/(key+'.md')
+            label='Read '+name.replace('-',' ')
+            reference=internal(key,label) if source_path.is_file() else esc(name.replace('-',' '))+' <span class="small">· historical draft not included in this source archive</span>'
+            body+='<li>'+reference+'</li>'
+        body+='</ul>'
     body+='<p>'+internal('map','Return to the discovered map')+'</p>'
     if nid in physical_nodes:
         body+=parent_items(ui_graph,nid,node_link)
@@ -295,11 +307,6 @@ for artifacts in research_artifacts.values():
         content=md(content,ROOT/a.get('source_path',a['path'])) if path.suffix=='.md' else '<pre style="white-space:pre-wrap;overflow-wrap:anywhere">'+esc(content)+'</pre>'
         origin='Original source '+esc(a['source_path'])+' · original SHA256 '+a['source_sha256']+' · immutable published snapshot '+esc(a['path']) if a.get('immutable_snapshot') else esc(a['path'])
         pages[a['page']]='<section data-research-artifact-page-path="'+esc(a['path'])+'" data-research-artifact-page-sha256="'+a['sha256']+'"><h1>'+esc(a['label'])+'</h1><p class="small">Saved '+esc(a['kind'])+' · '+origin+' · SHA256 '+a['sha256']+'</p><p class="notice">Bounded research/review evidence. This artifact does not certify physical manufacturing closure or later changed routes.</p>'+content+'</section>'
-draft_readings={
-    'bootstrap-copper':'research/copper.md','bootstrap-ignition':'research/ignition.md',
-    'bootstrap-cord':'research/cord.md','bootstrap-clay-vessel':'research/clay-vessel.md',
-    'mems-research':'research/mems/report.md',
-    'electrolyte-research':'materials/breadth-pass-03-making-page.md'}
 for key,rel in draft_readings.items():
     path=ROOT/'proposals/2026-10-08-discovery'/rel
     if path.exists():
@@ -319,7 +326,7 @@ for s in sources:
     if s.get('claim_scopes'):
         pages['sources']+='<details><summary>Recorded claim scope and limitations</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">'+esc(json.dumps(s['claim_scopes'],indent=2,ensure_ascii=False))+'</pre></details>'
 pages['sources']+='</ol>'
-pages['downloads']='<h1>Download and continue</h1><p>The research record uses portable JSON and Markdown. The same validated record generates the map, manufacturing links and reading pages.</p><ul><li><a href="research-data.json" download>Dependency registry (JSON)</a></li><li><a href="research-validation.json" download>Graph validation report</a></li><li><a href="research-sources.json" download>Recovered source index</a></li><li><a href="smartphone-research.html" download>Standalone linked research edition</a></li></ul><p>Coordinated discovery and research are active under the research contract. The full source archive is delivered with the chat.</p>'
+pages['downloads']='<h1>Download and continue</h1><p>The research record uses portable JSON and Markdown. The same validated record generates the map, manufacturing links and reading pages.</p><ul><li><a href="research-data.json" download>Dependency registry (JSON)</a></li><li><a href="research-validation.json" download>Graph validation report</a></li><li><a href="research-sources.json" download>Recovered source index</a></li><li><a href="smartphone-research.html" download>Standalone linked research edition</a></li></ul><p>Continue discovery and research under the research contract. Source code, the registry and evidence files are available in the <a href="https://github.com/kobinkempe/smartphone-research-map">GitHub repository</a>.</p>'
 
 # Exact link set: every published making edge has passed the gate; no declared edge is hidden.
 if emitted != allowed:
@@ -347,7 +354,7 @@ for key,body in pages.items():
     file.write_text(document,encoding='utf-8')
 
 payload=json.dumps(pages,ensure_ascii=False).replace('</','<\\/')
-standalone=shell_head+'<main id="content">'+pages['index']+'</main><script>window.RESEARCH_STANDALONE=true;'+graph_script+'</script><script>'+ui_script+'</script><script>const pages='+payload+''';function render(){const key=decodeURIComponent(location.hash.slice(1))||'index';document.querySelectorAll('.dot-map').forEach(e=>e._dispose?.());document.getElementById('content').innerHTML=pages[key]||pages.index;document.querySelectorAll('a[data-page]').forEach(a=>a.href='#'+encodeURIComponent(a.dataset.page));document.querySelectorAll('a[href="research-data.json"],a[href="research-validation.json"],a[href="research-sources.json"],a[href="smartphone-research.html"]').forEach(a=>{a.removeAttribute('download');a.onclick=e=>{e.preventDefault();alert('Use the separate source archive supplied with the chat for data files.');};});document.title=(document.querySelector('main h1')?.textContent||'Research')+' · Smartphone Building';window.scrollTo(0,0);ResearchUI.init();}window.addEventListener('hashchange',render);render();</script>'''+shell_footer
+standalone=shell_head+'<main id="content">'+pages['index']+'</main><script>window.RESEARCH_STANDALONE=true;'+graph_script+'</script><script>'+ui_script+'</script><script>const pages='+payload+''';function render(){const key=decodeURIComponent(location.hash.slice(1))||'index';document.querySelectorAll('.dot-map').forEach(e=>e._dispose?.());document.getElementById('content').innerHTML=pages[key]||pages.index;document.querySelectorAll('a[data-page]').forEach(a=>a.href='#'+encodeURIComponent(a.dataset.page));document.querySelectorAll('a[href="research-data.json"],a[href="research-validation.json"],a[href="research-sources.json"],a[href="smartphone-research.html"]').forEach(a=>{a.removeAttribute('download');a.onclick=e=>{e.preventDefault();alert('For data files, use the GitHub repository: https://github.com/kobinkempe/smartphone-research-map');};});document.title=(document.querySelector('main h1')?.textContent||'Research')+' · Smartphone Building';window.scrollTo(0,0);ResearchUI.init();}window.addEventListener('hashchange',render);render();</script>'''+shell_footer
 standalone=standalone.replace("window.addEventListener('hashchange',render);", "document.addEventListener('click',e=>{const a=e.target.closest('a[href=\"#making\"]');if(a){e.preventDefault();document.getElementById('making')?.scrollIntoView();}});window.addEventListener('hashchange',render);")
 standalone=standalone.replace("document.getElementById('content').innerHTML=pages[key]||pages.index;",
                               "document.body.classList.toggle('map-view-page',key==='map-view');document.getElementById('content').innerHTML=pages[key]||pages.index;")
@@ -368,7 +375,7 @@ with zipfile.ZipFile(hosted/'smartphone-research.zip','w',zipfile.ZIP_DEFLATED,c
 if any(p.stat().st_size>26_214_400 for p in hosted.rglob('*') if p.is_file()):
     raise RuntimeError('Hosted output exceeds the 25 MiB per-file limit')
 size=sum(p.stat().st_size for p in OUT.rglob('*') if p.is_file())
-snapshot={'target_version':'v1','graph_revision':registry['revision'],'outputs':total,'unresearched':discovered,'unresearched_percent':round(100*discovered/total,1),'inherited_pages':len(inherited),'selected_routes':len(selection),'dependency_edges':len(allowed),'natural_endpoints':0,'closed_paths':0,'source_urls':len(sources),'html_pages':len(pages),'static_bytes':size,'dependency_link_audit':'all published dependency links match validated selected graph','bulk_research':'authorized 2026-10-08; coordinated discovery and research','hosting':'private Sites publication configured; exact standalone edition supplied as a compressed download'}
+snapshot={'target_version':'v1','graph_revision':registry['revision'],'outputs':total,'unresearched':discovered,'unresearched_percent':round(100*discovered/total,1),'inherited_pages':len(inherited),'selected_routes':len(selection),'dependency_edges':len(allowed),'natural_endpoints':0,'closed_paths':0,'source_urls':len(sources),'html_pages':len(pages),'static_bytes':size,'dependency_link_audit':'all published dependency links match validated selected graph','bulk_research':'authorized 2026-10-08; coordinated discovery and research','hosting':'static pages generated with a compressed standalone reading edition'}
 (DATA/'checkpoint.json').write_text(json.dumps(snapshot,indent=2)+'\n',encoding='utf-8')
 snapshot.update(local_bytes=local_bytes(),local_budget_bytes=LOCAL_BUDGET_BYTES)
 snapshot.update(natural_endpoints=natural_count,closed_paths=closed_count,evidence_counts=dict(status))
