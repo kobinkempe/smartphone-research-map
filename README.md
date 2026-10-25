@@ -1,10 +1,14 @@
 # Smartphone Research Map
 
+**An educational investigation into the industrial world hidden inside an everyday object: what would it take to build a smartphone from scratch?**
+
+I imagined a knowledgeable group starting on an Earth untouched by humans, with no manufactured tools, prepared materials, factories or utilities. Making a phone means making its parts, making the tools that make those parts, and following those dependencies back toward raw resources. The purpose is to learn how modern technology and industry fit together.
+
+I built a shared research registry and an interactive map so this growing investigation could be explored, checked and extended. Follow an item such as copper wire to see proposed making routes, prerequisites, uses, evidence and unresolved questions. The companion [Smartphone Prototype Lab](https://github.com/kobinkempe/smartphone-prototype-lab) explores how that kind of information could become an engaging visual learning experience.
+
 ## Public demo
 
 [Open the live demo](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/smartphone-research-map/) · [Read the case study](https://kobin-ai-portfolio.kobinkempe.chatgpt.site/case-studies/smartphone-research-map/)
-
-An agent-assisted research system and interactive dependency map for tracing what it would take to make a smartphone from underlying parts, tools and resources.
 
 ![Interactive research map](docs/screenshots/map.jpg)
 
@@ -13,6 +17,12 @@ An agent-assisted research system and interactive dependency map for tracing wha
 The hard part is preserving meaning as many research contributions accumulate. Canonical IDs, explicit making routes, source provenance, review states and a conservative graph gate keep the map tied to inspectable data. The map is generated from the same validated registry as the reading pages.
 
 The revision-138 snapshot contains **1,507 records**, **825 candidate routes**, and **734 selected routes**. It still reports **zero closed manufacturing paths**. Most physical outputs remain discovery hypotheses. Structural validity and a visually connected path do not prove capability, completeness or physical feasibility.
+
+## My role and the role of AI
+
+I set the educational question, the meaning of the relationships, the review criteria and the direction of the experience. AI agents helped discover dependencies, research focused questions, critique proposals and implement the software. A shared data contract lets contributions accumulate as one investigation.
+
+The software checks references, revisions and dependency cycles before publishing the map and reading pages. Those checks keep the research organized; evidence and review are still needed to establish whether a proposed manufacturing route would work. The current snapshot is an open investigation with many hypotheses.
 
 ## Run from source
 
