@@ -8,7 +8,7 @@ I built a shared research registry and an interactive map so this growing invest
 
 ## Public demo
 
-[Open the live demo](https://kobinkempe.pages.dev/smartphone-research-map/) · [Read the case study](https://kobinkempe.pages.dev/case-studies/smartphone-research-map/)
+[Open the live demo](https://kobinkempe.pages.dev/smartphone-research-map/) · [See project details](https://kobinkempe.pages.dev/projects/smartphone-research-map/)
 
 ![Interactive research map](docs/screenshots/map.jpg)
 
